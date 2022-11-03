@@ -23,7 +23,7 @@
            
                    <div class="col-md-3 col-lg-3 mx-auto mb-md-0 mb-4">
                 <!-- Links -->
-                <a href="https://bsquareparivar.in/">
+                <a href="#">
                   <img src="<%= maincontent.cdnurl %>/footerlogo.png" alt="" width="200px">
                 </a>
 <%--                
@@ -98,12 +98,22 @@
                       </li>
                     
                       <li class="pb-2" style="color: white;">
-                        <a href="/schedule" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Schedule</a>
+                        <a href="/prize" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i> Cash Prize</a>
                         
                       </li>
                     
                       <li class="pb-2" style="color: white;">
-                        <a href="/how-to-register" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  How to register</a>
+                        <a href="/reward" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Reward</a>
+                        
+                      </li>
+                      
+                      <li class="pb-2" style="color: white;">
+                        <a href="/scholarship" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Scholarship</a>
+                        
+                      </li>
+                    
+                      <li class="pb-2" style="color: white;">
+                        <a href="/Default#registration" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  How to Registration</a>
                         
                       </li>
                     
@@ -112,21 +122,7 @@
                         
                       </li>
                     
-                      <li class="pb-2" style="color: white;">
-                        <a href="/result" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Result</a>
-                        
-                      </li>
-                    
-                      <li class="pb-2" style="color: white;">
-                        <a href="https://api.whatsapp.com/send?phone=919521236555" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Enquiry</a>
-                        
-                      </li>
-                    
-                      <li class="pb-2" style="color: white;">
-                        <a href="/faq" class="text-reset text-capitalize" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  FAQ</a>
-                        
-                      </li>
-                    
+                     
                   </ul>
                  
                 
@@ -143,27 +139,27 @@
                    
                     
                       <li class="pb-2 text-capitalize" style="color: white;">
-                        <a href="/photo-gallery" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Photo Gallery</a>
+                        <a href="/result" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Result</a>
                         
                       </li>
                     
                       <li class="pb-2 text-capitalize" style="color: white;">
-                        <a href="https://api.whatsapp.com/send?phone=919521236555" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Associate with us</a>
+                        <a href="/Default#faq" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  FAQ</a>
                         
                       </li>
                     
                       <li class="pb-2 text-capitalize" style="color: white;">
-                        <a href="/contact-us" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Contact</a>
+                        <a href="https://bsquareparivar.in/gallery-one/" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Photo Gallery</a>
                         
                       </li>
                     
                       <li class="pb-2 text-capitalize" style="color: white;">
-                        <a href="/privacy-policy" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Privacy Policy</a>
+                        <a href="https://bsquareparivar.in/contact-us/" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Contact Us</a>
                         
                       </li>
                     
                       <li class="pb-2 text-capitalize" style="color: white;">
-                        <a href="/offline-registration-center" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Offline Register Center</a>
+                        <a href="https://bsquareparivar.in/privacy-policy/" class="text-reset" style="color: white;text-decoration: none;"> <i class="fa fa-angle-double-right me-2" aria-hidden="true"></i>  Privacy Policy</a>
                         
                       </li>
                     
@@ -182,13 +178,13 @@
             
 
                 <div class="col-md-3 col-lg-3 mx-auto mb-4 ">
-                     <p class="ft-contactMenu" style="color: white;"> <span class="ft-iconSpan"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="ft-contentSpan">“KARMASTHALI” Pandit Harinath Chaturvedi Marg Piprali Road, Sikar, Rajasthan</span> </p>
+                     <p class="ft-contactMenu" style="color: white;"> <span class="ft-iconSpan"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="ft-contentSpan">Sanskar Tower, Civil Line, Merta City – 341510 ,Dis. Nagaur(Raj.)</span> </p>
                 
                 
-                <p class="ft-contactMenu" style="color: white;"><span class="ft-iconSpan"><i class="fa fa-envelope" aria-hidden="true"></i></span> <span class="ft-contentSpan"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="93f0fff0e0faf8f2e1fbf6ffe3fffafdf6d3f4fef2faffbdf0fcfe">[email&#160;protected]</a></span></p>
+                <p class="ft-contactMenu" style="color: white;"><span class="ft-iconSpan"><i class="fa fa-envelope" aria-hidden="true"></i></span> <span class="ft-contentSpan"><a href="mailto:bsquarejee@gmail.com" class="__cf_email__" data-cfemail="93f0fff0e0faf8f2e1fbf6ffe3fffafdf6d3f4fef2faffbdf0fcfe">bsquarejee@gmail.com</a></span></p>
                 
                 
-                <p class="ft-contactMenu" style="color: white;"><i class="fa fa-phone" aria-hidden="true"></i><span class="ft-contentSpan"><a href="tel: +91 9414036555">+91 9414036555</a></span></p>
+                <p class="ft-contactMenu" style="color: white;"><i class="fa fa-phone" aria-hidden="true"></i><span class="ft-contentSpan"><a href="tel:918764515151">+91 87645-15151</a></span></p>
                 
                 </div>
              

@@ -501,4 +501,25 @@
                 transition: var(--bs-accordion-transition);
             }
             }
+            .zone-color{
+                color: #7a2526;
+                font-weight:bold;
+            }
+           .why_three_cards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 15px;
+    justify-content: center;
+}
+        .why_three_cards>div:nth-child(even){
+            margin-top:3.5rem
+        }
+        .mt-30{
+            margin-top:150px;
+        }
         </style>

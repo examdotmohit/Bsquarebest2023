@@ -84,11 +84,11 @@
                 <div class="navRightBox">
                     <span class="navbar-text">Make a Call</span>
                     <div class="d-flex justify-content-center g-2">
-                        <a class="nav-link me-2" href="tel:+91 9521236555" data-title="91 9521236555" style="font-size:16px; background-color: transparent;">
+                        <a class="nav-link me-2" href="tel: +91 8764515151" data-title="91 8764515151" style="font-size:16px; background-color: transparent;">
                             <!-- +91 9414036555 -->
                             <img src="https://i.pinimg.com/originals/01/e2/5a/01e25aea0f80ad7649eccd6cbba3a74c.jpg" alt="" style="width: 27px; height: 27px; display: inline-block; background-color: #f8f9fa; border-radius: 50%;">  
                         </a>
-                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=919521236555" target="_blank" data-title="91 9521236555" style="font-size:16px; background-color: transparent; display: inline-block;">
+                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=919875286421" target="_blank" data-title="91 9875286421" style="font-size:16px; background-color: transparent; display: inline-block;">
                             <img src="https://w7.pngwing.com/pngs/110/230/png-transparent-whatsapp-application-software-message-icon-whatsapp-logo-whats-app-logo-logo-grass-mobile-phones.png" alt="" style="width: 27px; height: 27px; background-color: #f8f9fa; border-radius: 50%;">
                         </a>
                     </div>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="/main.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
      <title>
@@ -47,176 +47,104 @@
                     </div>
                 </div>
             </section>
-            <%--<section id="WHY_US">
+
+
+
+
+      <section id="WHY_US">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 text-center">
-                            <h6 class="section-headlabel mx-auto">WHY CHOOSE</h6>
-                            <h1 class="main-heading mx-auto" style="width: fit-content;"><b>Talent Exploring CLC
-                                    National Olympiad 2023</b></h1>
-                            <h6 class="text_under">Exploring young igniting minds...</h6>
+                        
+                        <div class="col-xl-6 col-lg-6 why_card-container">
+                            <div class="why_three_cards">
+
+                                <div class="col-lg-6">
+                                    <div>
+                                        <div class="whyCard-img">
+                                            <img class="img2" src="<%= maincontent.cdnurl %>/cash-prize.png"  alt="">
+                                        </div>
+                                        <div class="whyCard-Content">
+                                            <p class="text text-center">Cash Prizes</p>
+                                            
+                                            <h1 class="text text-center"><span class="bolderr"><b>&#8377; 51 Lakh</b></span></h1>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <div>
+                                        <div class="whyCard-img">
+                                            <img class="img2" src="<%= maincontent.cdnurl %>/scholarship.png" alt="">
+                                        </div>
+                                        <div class="whyCard-Content">
+                                            <p class="text text-center">Scholarship worth</p>
+                                            
+                                            <h1 class="text text-center"><span class="bolderr"><b>&#8377; 51 Lakh</b></span></h1>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <div class=" ">
+                                        <div class="whyCard-img">
+                                            <img class="img2" src="<%= maincontent.cdnurl %>/trophy.png" alt="">
+                                        </div>
+                                        <div class="whyCard-Content">
+                                            <p class="text text-center">National Ranks & Total Prizes for Students</p>
+                                            
+                                            <h1 class="text text-center"><span class="bolderr"><b>1,000</b></span></h1>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6">
+                                    <div class=" ">
+                                        <div class="whyCard-img">
+                                            <img class="img2" src="<%= maincontent.cdnurl %>/award.png" alt="">
+                                        </div>
+                                        <div class="whyCard-Content">
+                                            <p class="text text-center">Scholarship For BEST 2023 Course for 2023-24</p>
+                                            
+                                            <h1 class="text text-center"><span class="bolderr"><b> Up to 100%</b></span></h1>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="col-6 text-center">
+                            <h6 class="section-headlabel mx-auto">About Best</h6>
+                            <h1 class="main-heading mx-auto"><b>About BEST 2023</b></h1>
+                            <h3 class="zone-color">Exam Date :</h3>
+                            <h5 class="zone-color">Zone-I : 27 Nov. 2022</h5>
+                            <h5 class="zone-color">Zone-II : 4 Dec. 2022</h5>                                        
+
+                            <h6>BEST 2023 helps students nurture their minds for higher targets of tomorrow and enables them to study at B-Square Institute for competitive test preparation by allowing high admission scholarship. BEST 2023 has helped almost a million students build a solid foundation and made them future ready.</h6>
+                            
+                            <h5 class="mt-5 zone-color">Exam Conduction Process</h5>
+                            <p>BEST 2023 will be conducted in Offline mode only.</p>
+                            <h5 class="mt-5 zone-color">Exam Result</h5>
+                            <p>Result will be declared in last week of November 2022 (It will be declared on www.bsquarebest.in and will also be shared by SMS at applicant's registered Mobile No.).</p>
                             <!-- <p class="text">Exploring young igniting minds...</p> -->
                         </div>
-                        <div class="col-xl-11 col-lg-12 why_card-container">
-                            <div class="why_three_cards">
-                                <div class="col-lg-4">
-                                    <div class="whyCard ">
-                                        <div class="whyCard-img">
-                                            <img class="img2"
-                                                src="https://consultino.radiantthemes.com/education/wp-content/uploads/sites/54/2022/07/eduction-icon03-2.webp"
-                                                alt="">
-                                        </div>
-                                        <div class="whyCard-Content">
-                                            <h6 class="text text-center fs-5"><span class="bolderr"><b>Talent
-                                                        Exposure</b></span></h6>
-                                            <p class="text">CLC Tecno Olympiad gives you a chance to prove and hone your
-                                                talent. If you have talent then CLC Tecno Olympiad is the best platform
-                                                for you where you can achieve your dreams without any hindrance by
-                                                showcasing your talent.</p>
-                                            <!-- <div class="buton text-center">
-                                    <span class="learnMore"><strong>Learn More<i class="fa fa-long-arrow-right ml-2 ms-2" aria-hidden="true"></i></strong></span>
-                                </div> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="whyCard">
-                                        <div class="whyCard-img">
-                                            <img class="img2"
-                                                src="https://consultino.radiantthemes.com/education/wp-content/uploads/sites/54/2022/07/eduction-icon02.webp"
-                                                alt="">
-                                        </div>
-                                        <div class="whyCard-Content">
-                                            <h6 class="text text-center fs-5"><span class="bolderr"><b>Unparalleled
-                                                        Level</b></span></h6>
-                                            <p class="text">CLC Tecno gives you a chance to learn under the experience
-                                                and guidance of experienced, talented and highly qualified teachers of
-                                                National level. The high level of CLC Tecno test paper gives you a
-                                                chance to get into the reality of your preparation for competitive
-                                                exams.</p>
-                                            <!-- <div class="buton text-center">
-                                    <span class="learnMore"><strong>Learn More<i class="fa fa-long-arrow-right ml-2 ms-2" aria-hidden="true"></i></strong> </span>
-                                </div> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="whyCard">
-                                        <div class="whyCard-img ">
-                                            <img class="img2"
-                                                src="https://consultino.radiantthemes.com/education/wp-content/uploads/sites/54/2022/07/eduction-icon01-2.webp"
-                                                alt="">
-                                        </div>
-                                        <div class="whyCard-Content">
-                                            <h6 class="text text-center fs-5"><span class="bolderr"><b>Proper
-                                                        Guidance​</b></span></h6>
-                                            <p class="text">A student knows what to do but doesn't know how to do it.CLC
-                                                Tecno gives you a chance to get proper guidance and the best mental &
-                                                moral support. Above all you get the top level motivation for all your
-                                                competitive exams @CLC.</p>
-                                            <!-- <div class="buton text-center">
-                                    <span class="learnMore"><strong>Learn More<i class="fa fa-long-arrow-right ml-2 ms-2" aria-hidden="true"></i></strong> </span>
-                                </div> -->
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </section>--%>
+            </section>
 
 
-            <div class="col-lg-6">
-                        <div class="choose-us-2">
-                            <div class="inner">
-                                <div class="section-title text-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                    <!--<span class="pre-title" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">UNIQUE</span>-->
-                                    <h3 class="title">About TALLENTEX 2023</h3>
-                                    <h6 class="feature-title mb-10 color-ornge">Exam Date : 9th &amp; 16th October 2022</h6>
-                                </div>
-                                <p class="description mt--20 mb--20">TALLENTEX helps students nurture their minds for higher targets of tomorrow and enables them to study at ALLEN Career Institute for competitive test preparation by allowing high admission scholarship. TALLENTEX has helped
-                                    almost a million students build a solid foundation and made them future ready.</p>
-
-                                <div class="feature-style-4">
-                                    <!--
-                                    <div class="edu-feature-list" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                        <div class="icon">
-                                            <i class="icon-Smile"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h6 class="title">Trusted By 9.12 Lac Students</h6>
-                                            <p>There are many variations of passages of the Ipsum available, but the majority have suffered alteration</p>
-                                        </div>
-                                    </div>
--->
-
-                                    <!--
-                                    <div class="edu-feature-list color-var-2" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                        <div class="icon">
-                                            <i class="icon-Support"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h6 class="title">3500 + Schools have Participated Pan India and Overseas</h6>
-                                            <p>There are many variations of passages of the Ipsum available, but the majority have suffered alteration</p>
-                                        </div>
-                                    </div>-->
-
-                                    <div class="edu-feature-list color-var-3" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                        <div class="icon">
-                                            <i class="ri-draft-line"></i>
-
-                                        </div>
-                                        <div class="content">
-                                            <h6 class="title">Exam Conduction Process</h6>
-                                            <p>TALLENTEX 2023 will be conducted in Offline mode only.</p>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="edu-feature-list color-var-2" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                        <div class="icon">
-                                            <i class="ri-calendar-event-line"></i>
-                                        </div>
-                                        <div class="content">
-                                            <h6 class="title">Exam Result</h6>
-                                            <p>Result will be declared in last week of November 2022 (It will be declared on www.tallentex.com and will also be shared by SMS at applicant's registered Mobile No.).</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
-                    <div class="shape-image shape-image-1">
-                        <img src="assets/images/shapes/shape-04-01.png" alt="TALLENTEX 2023" />
-                    </div>
-                    <div class="shape-image shape-image-2">
-                        <img src="assets/images/shapes/shape-11.png" alt="TALLENTEX 2023" />
-                    </div>
-                </div>
-            </div>
-            <!-- End Counterup Area  -->
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <section id="OUR_BENEFITS">
+            
+            
+    
+      <%--  <section id="OUR_BENEFITS">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12">
@@ -268,25 +196,28 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>--%>
 
-            <section id="ABOUT_COURSES">
-                <div class="container">
+
+
+      <section id="ABOUT_COURSES">
+                <div class="container mt-30">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12 text-area">
                             <h6 class="benefits new-heading">ABOUT EXAM</h6>
                             <h1 class="main-heading new-subHeading"><b>Who Can Apply</b></h1>
                             <h6 class="text_under"><b style="color: #2f4c90;
                         ">Students Studying in Class 5, 6, 7, 8, 9, 10, 11 & 12 Science</b></br> any
-                                Educational Board (CBSE, ICSE & State Board) in session 2022-23.</h6>
+                                Educational Board (CBSE, RBSE) in session 2022-23.</h6>
                             <!-- <p class="text">CLC has the best faculties with vast knowledge & superb experience which will help to each student for success in NEET & JEE. We believe in quality education so we provides every modern method of teaching and a competitive environment that aims to help our students to achieve their aim of life i.e. CLC teaches how to live the life.. and how to win…</p><br> -->
 
                             <div class="col-12">
+                                <a name="registration"></a>
                                 <div style="margin-top: 20px;">
                                     <h6 class="new-subHeading"><b>Mode of Registration</b></h6>
 
                                     <h6 style="margin-top:35px"><b>(A) Online Registration</b></h6>
-                                    <p>Fill online Registration form at <b>www.clctecno.com.</b> One Mobile no. can be
+                                    <p>Fill online Registration form at <b>www.bsquarebest.in.</b> One Mobile no. can be
                                         used only for one Registration. </p>
                                 </div>
                                 <div class="row px-3">
@@ -343,7 +274,7 @@
                                     <h6><b>(B) Offline Registration</b></h6>
                                 </div>
                                 <div>
-                                    <p>Collect Registration form @ CLC Centres / Office. <br>(
+                                    <p>Collect Registration form @ B-Square Institute Centres / Office. <%--<br>(
                                         <a style="color: #832629; text-decoration: none;"
                                             href="/offline-registration-center">Sikar,</a>
                                         <a style="color: #832629; text-decoration: none;"
@@ -358,7 +289,7 @@
                                             href="/offline-registration-center">Hisar</a> &
                                         <a style="color: #832629; text-decoration: none;"
                                             href="/offline-registration-center">Delhi</a>
-                                        ).
+                                        ).--%>
                                     </p>
                                 </div>
                             </div>
@@ -375,7 +306,9 @@
                     </div>
                 </div>
             </section>
-            <!-- <section id="OUR_BENEFITS">
+      
+    
+      <!-- <section id="OUR_BENEFITS">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
@@ -425,8 +358,11 @@
             </div>
         </div>
     </section> -->
-            <section id="my-section">
-                <div class="container">
+
+
+
+      <section id="my-section">
+                <div class="container mt-20">
                     <div class="row">
 
                         <div class="col-lg-12 col-sm-12 text-area">
@@ -438,59 +374,40 @@
                                             ZONE : I (RAJASTHAN)
                                         </li>
                                         <li class="normal">
-                                            Exam Date : 13 Nov. 2022
+                                            Exam Date : 27 Nov. 2022
                                         </li>
                                         <li class="normal">
                                             Exam Time : 11:00 AM to 1:00 PM
                                         </li>
-                                        <li class="normal">
-                                            Last Date of Registration : 06 Nov. 2022
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                                 <div class="col-mg-6 col-lg-6 rightSection">
-                                    <p class="myShowBtn" v-if="windowWidth<600&&!collapseCenters" @click="collapseCenters=!collapseCenters">Show Centers</p>
-                                    <p class="myShowBtn" v-if="windowWidth<600&&collapseCenters" @click="collapseCenters=!collapseCenters">Hide Centers</p>
                                     <ul :class="{ collapse : !collapseCenters }">
 
                                         <li> <a style="color: black; text-decoration: none;"
-                                                href="/exam-center">Bharatpur</a></li>
+                                                href="/exam-center">Merta City</a></li>
                                         <li><a style="color: black; text-decoration: none;"
-                                                href="/exam-center">Bikaner</a>
+                                                href="/exam-center">Kuchera</a>
                                             
                                         </li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Dausa</a>
+                                            href="/exam-center">Mundwa</a>
                                             
                                         </li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Dholpur</a>
+                                            href="/exam-center">Ren</a>
                                             
                                         </li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Hanumangarh</a>
+                                            href="/exam-center">Degana</a>
                                             
                                         </li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jodhpur</a>
+                                            href="/exam-center">Padu Kalan</a>
                                             
                                         </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Karauli</a>
-                                            
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Sawaimadhopur</a>
-                                            
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Sri Ganganagar</a>
-                                            
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Tonk</a>
-                                            
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                             </div>
@@ -501,210 +418,45 @@
                                             ZONE : II (RAJASTHAN)
                                         </li>
                                         <li class="normal">
-                                            Exam Date : 20 Nov. 2022
+                                            Exam Date : 04 Dec. 2022
                                         </li>
                                         <li class="normal">
                                             Exam Time : 11:00 AM to 1:00 PM
                                         </li>
-                                        <li class="normal">
-                                            Last Date of Registration : 13 Nov. 2022
-
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                                 <div class="col-mg-6 col-lg-6 rightSection">
-                                    <p class="myShowBtn" v-if="windowWidth<600&&!collapseCenters1" @click="collapseCenters1=!collapseCenters1">Show Centers</p>
-                                    <p class="myShowBtn" v-if="windowWidth<600&&collapseCenters1" @click="collapseCenters1=!collapseCenters1">Hide Centers</p>
                                     <ul :class="{ collapse : !collapseCenters1 }">
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Ajmer</a></li>
+                                            href="/exam-center">Riyan Badi</a></li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Alwar</a></li>
+                                            href="/exam-center">Jasnagar</a></li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Churu</a></li>
+                                            href="/exam-center">Gotan</a></li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jaipur</a></li>
+                                            href="/exam-center">Merta Road</a></li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jhunjhunu</a></li>
+                                            href="/exam-center">Bherunda</a></li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Nagaur</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Sikar</a></li>
+                                            href="/exam-center">Bhopal Garh</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-mg-6 col-lg-6 leftSection">
-                                    <ul>
-                                        <li class="heading">
-                                            ZONE : III (HARYANA)
-                                        <li class="normal">
-                                            Exam Date : 27 Nov. 2022
-                                        </li>
-                                        <li class="normal">
-                                            Exam Time : 11:00 AM to 1:00 PM
-
-                                        </li>
-                                        <li class="normal">
-                                            Last Date of Registration : 20 Nov. 2022
-
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-mg-6 col-lg-6 rightSection">
-                                    <p class="myShowBtn" v-if="windowWidth<600&&!collapseCenters2" @click="collapseCenters2=!collapseCenters2">Show Centers</p>
-                                    <p class="myShowBtn" v-if="windowWidth<600&&collapseCenters2" @click="collapseCenters2=!collapseCenters2">Hide Centers</p>
-                                    <ul :class="{ collapse : !collapseCenters2 }">
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Ambala</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Bhiwani</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Charkhi Dadri</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Faridabad</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Fatehabad</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Gurgaon</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Hisar</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jhajjar</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jind</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Kaithal</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Karnal</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Kurukshetra</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Mahendragarh</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Nuh</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Palwal</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Panchkula</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Panipat</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Rewari</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Rohtak</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Sirsa</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Sonipat</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Yamuna Nagar</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-mg-6 col-lg-6 leftSection">
-                                    <ul>
-                                        <li class="heading">
-                                            ZONE : IV (RAJASTHAN)
-                                        <li class="normal">
-                                            Exam Date : 04 Dec. 2022
-
-                                        </li>
-                                        <li class="normal">
-                                            Exam Time : 11:00 AM to 1:00 PM
-
-
-                                        </li>
-                                        <li class="normal">
-                                            Last Date of Registration : 27 Nov. 2022
-
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-mg-6 col-lg-6 rightSection">
-                                    <p class="myShowBtn" v-if="windowWidth<600&&!collapseCenters3" @click="collapseCenters3=!collapseCenters3">Show Centers</p>
-                                    <p class="myShowBtn" v-if="windowWidth<600&&collapseCenters3" @click="collapseCenters3=!collapseCenters3">Hide Centers</p>
-                                    <ul :class="{ collapse : !collapseCenters3 }">
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Banswara</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Baran</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Barmer</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Bhilwara</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Bundi</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Chittorgarh</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Dungarpur</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jaisalmer</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jalore</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Jhalawar</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Kota</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Pali</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Pratapgarh</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Rajsamand</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Sirohi</a>
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Udaipur</a></li>
-                                    </ul>
-
-                                </div>
-                            </div>
                         </div>
 
                     </div>
                 </div>
             </section>
-            <section id="Syllabus_Pattern" style="margin-bottom:45px">
+
+
+
+
+
+
+      <section id="Syllabus_Pattern" style="margin-bottom:45px">
                 <div class="container">
                     <div class="row">
                         <center>
@@ -719,33 +471,447 @@
                                 </center>
                             </div>
                         </center>
-                        <div class="col-12 course-carosole">
-                            <div class="col-lg-2 col-md-4 col-sm-6 p-3" style="margin:auto"
-                                v-for="item in weOfferClass">
-                                <div class="inner">
-                                    <div class="icon">
-                                        <a :href="item.url" tabindex="0">
-                                            <img :src="item.img" alt="CLC Tecno ">
-                                        </a>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="title"><a :href="item.url" tabindex="0"
-                                                style="color:#000000;text-decoration: none;">{{item.class}}</a></h6>
-                                        <span>Syllabus &amp; Pattern</span>
-                                    </div>
-                                    <div class="hover-action">
-                                        <a class="read-more-btn" :href="item.url" tabindex="0"><i
-                                                class="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
+                        <div class="row">
+                                <div class="col-1"></div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class V</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
                             </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
                         </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class VI</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class VII</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class VIII</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class IX</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                        </div>
+
+
+                        <div class="row">
+                                <div class="col-1"></div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class X</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class XI (BIO)</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class XI (Math)</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class XII (BIO)</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                                <div class="col-2" style="margin-bottom:10px">
+                                <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
+                                <center>
+                                    <div class="inner">
+                            <div class="icon"><a href="#" tabindex="-1"><img
+                                        src="<%= maincontent.cdnurl %>/category-02.png"
+                                        alt="BEST 2023"></a></div>
+                            <div class="content">
+                                <h6 class="title"><a href="#" tabindex="-1"
+                                        style="color: rgb(0, 0, 0); text-decoration: none;">Class XII (Math)</a></h6>
+                                <span>Syllabus &amp; Pattern</span>
+                            </div>
+                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                                        class="fa fa-arrow-right"></i></a></div>
+                        </div>
+                                </center>
+                                                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
                     </div>
                 </div>
             </section>
 
 
-            <section id="faqSec">
+           
+    
+    
+    
+     <section id="faqSec">
+         <a name="faq"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="new-heading">FAQs</h1>
+            </div>
+            <div class="col-12">
+                <div id="accordionFaq" class="accordion accordion-flush">
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse0" aria-expanded="false"
+                                aria-controls="flush-collapse0" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>Who is eligible for the BEST 2023?
+                            </button></h2>
+                        <div id="flush-collapse0" aria-labelledby="flush-heading0" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Students Studying in class 5 ,6,7,8,9,10,11 &amp; 12 (Science) in session 2022-23
+                                        of CBSE, RBSE.</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false"
+                                aria-controls="flush-collapse1" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>What is the fee for BEST 2023?
+                            </button></h2>
+                        <div id="flush-collapse1" aria-labelledby="flush-heading1" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>There is no fee for BEST 2023</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false"
+                                aria-controls="flush-collapse3" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>In which medium BEST 2023 will be conducted ?
+                            </button></h2>
+                        <div id="flush-collapse3" aria-labelledby="flush-heading3" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Both in Hindi &amp; English</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false"
+                                aria-controls="flush-collapse4" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>What will be the pattern of the paper?
+                            </button></h2>
+                        <div id="flush-collapse4" aria-labelledby="flush-heading4" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>There will be multiple Choice &amp; single choice correct type.</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false"
+                                aria-controls="flush-collapse5" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>Will there be any negative marking in paper?
+                            </button></h2>
+                        <div id="flush-collapse5" aria-labelledby="flush-heading5" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>There will be no negative marking for class 5,6,7 &amp; 8, but there will be
+                                        negative marking for class 9,10,11 &amp; 12</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false"
+                                aria-controls="flush-collapse6" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>Are there any sample questions available for BEST 2023
+                                preparation?
+                            </button></h2>
+                        <div id="flush-collapse6" aria-labelledby="flush-heading6" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Students will be able to access sample questions after successful registration
+                                    </p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false"
+                                aria-controls="flush-collapse7" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>Can students register in offline mode?
+                            </button></h2>
+                        <div id="flush-collapse7" aria-labelledby="flush-heading7" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Yes, student can visit B-Square Institute centre/Office for offline registration</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false"
+                                aria-controls="flush-collapse8" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>How to Prepare for BEST 2023?
+                            </button></h2>
+                        <div id="flush-collapse8" aria-labelledby="flush-heading8" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Student can prepare by studying from NCERT books of their current class of given
+                                        syllabus.</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false"
+                                aria-controls="flush-collapse9" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>How will students receive admit card?
+                            </button></h2>
+                        <div id="flush-collapse9" aria-labelledby="flush-heading9" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Admit card can be downloaded from our website www.bsquarebest.in</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false"
+                                aria-controls="flush-collapse10" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>How many registrations can be done with one mobile
+                                no.?
+                            </button></h2>
+                        <div id="flush-collapse10" aria-labelledby="flush-heading10" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Only one registration can be done&nbsp;with one mobile no.</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false"
+                                aria-controls="flush-collapse11" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>Am I eligible for Cash awards, Scholarship and Rewards
+                                if I don't take admission in BEST 2023 classroom course?
+                            </button></h2>
+                        <div id="flush-collapse11" aria-labelledby="flush-heading11" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Your are only eligible for Rewards not for Cash awards &amp; scholarship.</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false"
+                                aria-controls="flush-collapse12" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>What is the last date for registration?
+                            </button></h2>
+                        <div id="flush-collapse12" aria-labelledby="flush-heading12" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>There is no Last Date till the exam is held.</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false"
+                                aria-controls="flush-collapse13" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>What will be the exam mode?
+                            </button></h2>
+                        <div id="flush-collapse13" aria-labelledby="flush-heading13" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>Only Offline</p>
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 id="'flush-heading' + index" class="accordion-header"><button type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false"
+                                aria-controls="flush-collapse14" class="accordion-button collapsed"><strong
+                                    class="text-colr"> &nbsp;</strong>I am a student of Bsquare classroom program of XI
+                                &amp; XII foundation, Am I eligible for Cash Awards, Rewards &amp; scholarship ?
+                            </button></h2>
+                        <div id="flush-collapse14" aria-labelledby="flush-heading14" data-bs-parent="#accordionFaq"
+                            class="accordion-collapse collapse">
+                            <div class="accordion-body"><strong></strong> <span>
+                                    <p>You can participate in BEST 2023 but not eligible for scholarship you will be only
+                                        Considered for Cash Awards, Reward.</p>
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <%--<section id="faqSec">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
@@ -792,7 +958,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>--%>
 
 
 
