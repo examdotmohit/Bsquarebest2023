@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </section>
-            <section id="WHY_US">
+            <%--<section id="WHY_US">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
@@ -125,7 +125,97 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>--%>
+
+
+            <div class="col-lg-6">
+                        <div class="choose-us-2">
+                            <div class="inner">
+                                <div class="section-title text-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    <!--<span class="pre-title" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">UNIQUE</span>-->
+                                    <h3 class="title">About TALLENTEX 2023</h3>
+                                    <h6 class="feature-title mb-10 color-ornge">Exam Date : 9th &amp; 16th October 2022</h6>
+                                </div>
+                                <p class="description mt--20 mb--20">TALLENTEX helps students nurture their minds for higher targets of tomorrow and enables them to study at ALLEN Career Institute for competitive test preparation by allowing high admission scholarship. TALLENTEX has helped
+                                    almost a million students build a solid foundation and made them future ready.</p>
+
+                                <div class="feature-style-4">
+                                    <!--
+                                    <div class="edu-feature-list" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="icon">
+                                            <i class="icon-Smile"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h6 class="title">Trusted By 9.12 Lac Students</h6>
+                                            <p>There are many variations of passages of the Ipsum available, but the majority have suffered alteration</p>
+                                        </div>
+                                    </div>
+-->
+
+                                    <!--
+                                    <div class="edu-feature-list color-var-2" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="icon">
+                                            <i class="icon-Support"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h6 class="title">3500 + Schools have Participated Pan India and Overseas</h6>
+                                            <p>There are many variations of passages of the Ipsum available, but the majority have suffered alteration</p>
+                                        </div>
+                                    </div>-->
+
+                                    <div class="edu-feature-list color-var-3" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="icon">
+                                            <i class="ri-draft-line"></i>
+
+                                        </div>
+                                        <div class="content">
+                                            <h6 class="title">Exam Conduction Process</h6>
+                                            <p>TALLENTEX 2023 will be conducted in Offline mode only.</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="edu-feature-list color-var-2" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                        <div class="icon">
+                                            <i class="ri-calendar-event-line"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h6 class="title">Exam Result</h6>
+                                            <p>Result will be declared in last week of November 2022 (It will be declared on www.tallentex.com and will also be shared by SMS at applicant's registered Mobile No.).</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shape-dot-wrapper shape-wrapper d-xl-block d-none">
+                    <div class="shape-image shape-image-1">
+                        <img src="assets/images/shapes/shape-04-01.png" alt="TALLENTEX 2023" />
+                    </div>
+                    <div class="shape-image shape-image-2">
+                        <img src="assets/images/shapes/shape-11.png" alt="TALLENTEX 2023" />
+                    </div>
+                </div>
+            </div>
+            <!-- End Counterup Area  -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <section id="OUR_BENEFITS">
                 <div class="container">
                     <div class="row">
