@@ -1,0 +1,981 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+p{
+    font-weight: 200;
+}
+b, strong {
+    
+    color: #585757;
+    font-weight: 600;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+#OUR_BENEFITS .purple_bg{
+    /* background-image: url("../img/education-image10.webp"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -4;
+    
+}
+#OUR_BENEFITS .img-2{
+    top: 20px;
+    left:290px;
+    position: absolute;
+    z-index: -1;
+    width:60%
+}
+
+#OUR_BENEFITS .benefits{
+    margin: 0;
+    padding: 2px 15px;
+    background-color: #ecd6fc;
+    border-radius: 50px;
+    width:fit-content;
+    color:#704b8b;
+    margin-top: 90px;
+}
+#OUR_BENEFITS .main-heading{
+    text-align: left;
+    margin-top: 25px;
+    /* font-weight: 600; */
+    text-transform: none;
+    font-size: 42px;
+    line-height: 50px;
+    color: #30353b;
+}
+#OUR_BENEFITS .text{
+    font-size: 18px;
+    color: #696e79;
+}
+#OUR_BENEFITS .bolderr{
+    color:black;
+}
+
+#ABOUT_COURSES .purple_bg{
+    /* background-image: url("../img/education-image10.webp"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -4;
+}
+#ABOUT_COURSES .img-2{
+    top: 50px;
+    left:320px;
+    position: absolute;
+    z-index: 1;
+    width:31%;
+}
+#ABOUT_COURSES .img-3{
+    top: 350px;
+    left:0px;
+    position: absolute;
+    z-index: 1;
+    width:31%;
+}
+#ABOUT_COURSES .benefits{
+    margin: 0;
+    padding: 2px 15px;
+    background-color: #ecd6fc;
+    border-radius: 50px;
+    width:fit-content;
+    color:#704b8b;
+    margin-top: 90px;
+}
+#ABOUT_COURSES .main-heading{
+    text-align: left;
+    margin-top: 25px;
+    /* font-weight: 600; */
+    text-transform: none;
+    font-size: 42px;
+    line-height: 50px;
+    color: #30353b;
+}
+#ABOUT_COURSES .text-area{
+    /* margin-left: 15px; */
+    /* width:90%; */
+}
+#ABOUT_COURSES .text{
+    font-size: 18px;
+    color: #696e79;
+}
+#ABOUT_COURSES .bolderr{
+    color:black;
+}
+#FEATURED_SERVICES{
+    /* background-image: url(../img/Rectangle-4-3.png); */
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+#FEATURED_SERVICES .benefits{
+    margin: auto;
+    padding: 2px 15px;
+    background-color: #ecd6fc;
+    border-radius: 50px;
+    width:fit-content;
+    color:#704b8b;
+    margin-top: 90px;
+    
+}
+#FEATURED_SERVICES h1{
+    color:white;
+    margin-top: 20px;
+}
+#FEATURED_SERVICES .text_under{
+    color: white;
+}
+#FEATURED_SERVICES .image_style-1{
+    position: relative;
+    background-size: cover;
+    /* background-image: url(../img/education-image14.webp); */
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#FEATURED_SERVICES .image_style-2{
+    position: relative;
+    background-size: cover;
+    /* background-image: url(../img/education-image15.webp); */
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#FEATURED_SERVICES .image_style-3{
+    position: relative;
+    background-size: cover;
+    /* background-image: url(../img/education-image17.webp); */
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+}
+#FEATURED_SERVICES .h-glow {
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    top: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    transition:0.3s;
+}
+#FEATURED_SERVICES .image_style-1:hover .h-glow{
+    background-color: rgb(255, 123, 0);
+    color:white;
+    top:440px;
+    border-radius: 5px;
+    width: 80%;
+}
+#FEATURED_SERVICES .image_style-2:hover .h-glow{
+    background-color: rgb(255, 123, 0);
+    color:white;
+    top:440px;
+    border-radius: 5px;
+    width: 80%;
+}
+#FEATURED_SERVICES .image_style-3:hover .h-glow{
+    background-color: rgb(255, 123, 0);
+    color:white;
+    top:440px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#FAQ .head-text{
+    font-size: 18px;
+    color: #696e79;
+    font-weight:normal;
+}
+#FAQ .purple_bg{
+    /* background-image: url("../img/education-image10.webp"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -4;
+}
+#FAQ .img-2{
+    top: 76px;
+    left: 350px;
+    position: absolute;
+    width:40%;
+}
+#FAQ .benefits{
+    margin: 0;
+    padding: 2px 15px;
+    background-color: #ecd6fc;
+    border-radius: 50px;
+    width:fit-content;
+    color:#704b8b;
+    margin-top: 90px;
+}
+#FAQ .main-heading{
+    margin-top: 25px;
+    /* font-weight: 600; */
+    text-transform: none;
+    font-size: 42px;
+    line-height: 50px;
+    color: #30353b;
+}
+#FAQ .text{
+    font-size: 15px;
+    color: #696e79;
+    font-weight: 400;
+}
+#FAQ .mclr{
+    font-size: 15px;
+    color: #696e79;
+    font-weight: 500;
+}
+#FAQ .bolderr{
+    color:black;
+}
+#FAQ ul {
+    list-style: none;
+  }
+  
+#FAQ button::before {
+    content: " ";
+    background-color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* margin-left: -1em; */
+  }
+/*=============================================================================================
+=============================================================================================
+========================= ACCORDIAN ===========================================================
+===============================================================================================
+===============================================================================================*/
+
+  #FAQ .panel {
+    margin: 20px 0;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  #FAQ button{
+      background-color:white;
+      border:none;
+      font-size: 20px;
+      font-weight: 500;
+  }
+  path.elementor-shape-fill {
+    fill: white;
+    position: relative;
+
+}
+#GET_IN_TOUCH{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#fff5f0 0%,#fff 100%);
+    height: 500px;
+}
+#GET_IN_TOUCH .benefits{
+    margin: 0;
+    padding: 2px 15px;
+    background-color: #ecd6fc;
+    border-radius: 50px;
+    width:fit-content;
+    color:#704b8b;
+    margin-top: 90px;
+}
+#GET_IN_TOUCH .main-heading{
+    /* text-align: left; */
+    margin-top: 25px;
+    /* font-weight: 600; */
+    text-transform: none;
+    font-size: 42px;
+    line-height: 50px;
+    color: #30353b;
+}
+#GET_IN_TOUCH .text{
+    font-size: 18px;
+    color: #696e79;
+}
+#GET_IN_TOUCH .bolderr{
+    color:black;
+}
+
+
+
+#Radiant .Education span, .section-headlabel{
+    margin: 0;
+    padding: 2px 15px;
+    background-color: #ecd6fc;
+    border-radius: 50px;
+    color: #704b8b;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: .7px;
+    width: fit-content;
+    }
+    #Radiant p {
+        margin: 0 20% 0 0;
+        padding: 0 0 37px;
+        transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-box-shadow .3s;
+        color: gray;
+    }
+    
+    #Radiant .Radiant-image img {
+        width: -webkit-fill-available;
+    }
+    
+    #Radiant span.Get-Start {
+        border-radius: 28px;
+        background-color: #ff632d;
+        padding: 14px 44px;
+        position: relative;
+        display: inline-block;
+        margin-left: 0;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 0;
+    }
+    #Radiant span.Discover-Mre {
+        background-color: #ff632d00;
+        margin: 0;
+        padding: 14px 30px 14px 0;
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: capitalize;
+        text-decoration: none;
+        margin-right: 0;
+        color: #30353b;
+    }
+    #Radiant .fa-long-arrow-right:before {
+        content: "\f178";
+        /* padding-left: 10px; */
+        /* font-size: 28px; */
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        fill: #fff;
+        margin-top: 0;
+        margin-left: 12px;
+    }
+    #Radiant .card {
+        border: none;
+        background: transparent;
+    }
+    #Radiant svg 
+        {
+            position: absolute;
+            bottom: -11px;
+            left: 0;
+            z-index: -6;
+            width: 145px;
+        }
+        #Radiant .h1, h1 {
+        font-size: 2.5rem;
+        /* position: relative; */
+        z-index: 1;
+        margin: 25px 0;
+    }
+    #Radiant img.all_studants{
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        width: auto;
+        position: absolute;
+        left: 0;
+        top: 208px;
+    }
+    #Radiant img.congratulation {
+        width: 226px;
+        position: absolute;
+        /* left: 377px; */
+        right: 45px;
+        /* bottom: -11px; */
+        top: 276px;
+    }
+    #Radiant .Radiant-image.col-lg-6 {
+        position: relative;
+    }
+    #Radiant span.rt-highlight-txt {
+        position: relative;
+    }
+    @media only screen and (min-width:1200px ){
+        #Radiant img.all_studants{
+            height: auto;
+            max-width: max-content;
+            border: none;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            width: 172px;
+            position: absolute;
+            left: 0;
+            top: 188px;
+        }
+        #Radiant img.congratulation {
+            width: 208px;
+            position: absolute;
+            /* left: 377px; */
+            right: 70px;
+            /* bottom: -11px; */
+            top: 223px;
+        }
+        #FAQ .text{
+            font-size: 15px;
+            width:80%;
+        }
+        
+        
+    }
+    
+    @media screen and (max-width: 1024px) and (min-width: 992px) {
+        #OUR_BENEFITS .img-2 {
+            top: 20px;
+            left: 187px;
+            position: absolute;
+            z-index: -1;
+            width: 60%;
+        }
+
+        #FAQ .img-2{
+            top: 76px;
+            left: 259px;
+            position: absolute;
+            width:40%;
+        }
+
+    }
+    @media only screen and (max-width:992px ){
+        .col-lg-6.col-sm-12 {
+            margin: auto;
+        }
+        #ABOUT_COURSES .img-3 {
+            top: 231px;
+            left: 0px;}
+            #OUR_BENEFITS .text{
+                font-size: 14px;
+            }
+            #ABOUT_COURSES .text{
+                font-size: 14px;
+            }
+            #FAQ .text{
+                font-size: 14px;
+            }
+            #FAQ .head-text{
+                font-size: 14px;
+            }
+            #FAQ button {
+                font-size: 15px;
+            }
+            #OUR_BENEFITS .bolderr {
+                color: black;
+                font-size: 14px;
+            }
+        #Radiant img.congratulation {
+            top: 333px;
+        }
+        #OUR_BENEFITS .img-2{
+            display: none;
+        }
+        #OUR_BENEFITS .img-1{
+            width:60%;
+            margin: auto;
+        }
+        #ABOUT_COURSES .img-2{
+            display: none;
+        }
+        #ABOUT_COURSES .img-1{
+            width:100%;
+            margin: auto;
+        }
+        #ABOUT_COURSES .img-3{
+            width:50%;
+        }
+        #FAQ .img-1{
+            width:100%;
+            margin: auto;
+            margin-bottom: 60px;
+        }
+        #FAQ .img-2{
+            display: none;
+        }
+      
+        #ABOUT_COURSES .main-heading {
+            text-align: left;
+            margin-top: 25px;
+            /* font-weight: 600; */
+            text-transform: none;
+            font-size: 30px;
+            line-height: 29px;
+            color: #30353b;
+        }
+        #FAQ .main-heading {
+            text-align: left;
+            margin-top: 25px;
+            /* font-weight: 600; */
+            text-transform: none;
+            font-size: 30px;
+            line-height: 29px;
+            color: #30353b;
+        }
+        #OUR_BENEFITS  .main-heading {
+            text-align: left;
+            margin-top: 25px;
+            /* font-weight: 600; */
+            text-transform: none;
+            font-size: 30px;
+            line-height: 29px;
+            color: #30353b;
+        }
+        
+    }
+    
+section#Radiant {
+    padding-top: 6rem;
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#fff5f0 0%,#fff 100%);
+}
+#footer .text-reset{
+    text-decoration: none;
+}
+footer.text-center.text-lg-start.bg-purple.text-muted {
+    background-color: #412e4f;
+    color: white;
+}
+/* new  */
+        /* nav  */
+       
+        
+        .whyCard {
+            box-shadow: 0 0 3px -2px #333;
+            padding: 1rem 1rem 1rem;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .whyCard-img{
+            position: relative;
+            padding: 50px;
+        }
+        .whyCard-img img{
+            position: absolute;
+            width: 168px;
+            aspect-ratio: 1;
+            top:0;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
+        /* .whyCard-Content p {
+            margin-top:2rem;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    } */
+        .learnMore{
+        color: #ff632d;}
+        .learnMore:hover{
+        color: #ff632d;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+        
+        @media (max-width: 992px){
+            .why_three_cards{
+                position: relative;
+            }
+            .why_three_cards{
+                padding: 1rem 15px;
+            }
+
+            div#navbarSupportedContent {
+            background-color: #f6f6f6;
+            padding: 3px 5px;
+        }
+        .navRightBox {
+            position: relative;
+            font-weight: 600;
+            font-size: 14px !important;
+        }
+        .navRightBox a.nav-link {
+            margin-top: 5px;
+        }
+        
+        }
+        @media (min-width: 992px){
+            section#Radiant{
+                margin-top:1rem;
+                background-color: transparent;
+                background-image: linear-gradient(180deg,#fff 0%,#fff5e7 100%);
+            }
+            
+            #myMenubar .navbar-nav,  #myMenubar .navbar-nav .nav-item {
+                height: 100%;
+            }
+            #myMenubar .navbar-nav .nav-item{
+                padding: 1px 7px;
+            }
+            #myMenubar .navbar-expand-lg .navbar-nav .dropdown-menu {
+                position: absolute;
+                /* top: 80px; */
+                top: 99%;
+                border-top: 0;
+                z-index: 999;
+                transform:rotateY(0deg);
+                transition: all 250ms ease;
+            }
+            #myMenubar li.nav-item.dropdown:hover .dropdown-menu {
+                display: block;
+                border-radius: 2px;
+                transform:rotateY(0deg);
+            }
+            #myMenubar li.nav-item .nav-link {
+            color: #30353b;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: capitalize;
+            line-height: 28px;
+            letter-spacing: .7px;
+            font-family: 'Noto Sans Display', sans-serif;
+            height: 100%;
+            line-height: 64px;
+        }
+        div#navbarSupportedContent {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .navRightBox {
+            position: relative;
+            padding: 0 10px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction:column;
+            flex-wrap: wrap;
+        }
+        .navRightBox::before {
+            right: unset;
+            left: 0;
+            bottom: 0;
+            width: 1px;
+            height: unset;
+        }
+
+        .why_card-container{
+            position: relative;
+            padding: 13rem;
+            margin: auto;
+        }
+        .why_three_cards>div:nth-child(even){
+            margin-top:0rem
+        }
+       
+    }
+    .circle {
+    position: relative;
+}
+.circle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    height: 0;
+    border: 2px dashed #7e7a7a;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+@media (min-width: 768px){
+    .courseContent:nth-child(3) .circle::before {
+    display:none;
+}
+#OUR_BENEFITS .purple_bg{
+    margin-top: 68px;           
+}
+}
+    .circle span.number {
+    padding: 7px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1px 0px;
+    background-color: #ffff;
+    z-index: 3;
+}
+.circle span.number:hover, .courseContent:nth-child(2) .circle span.number{
+    background-color:#ecd6fc;
+}
+
+/* login  */
+.tellnetColum.card {
+    border: 1px solid #eeeeee;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.row.Tellnet_heading {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    background-image: url(https://www.tallentex.com/tex2023/assets/images/bg/breadcrumb-bg.jpg);
+}
+.heading{
+    text-align: center;
+    padding: 45px;
+    color: #231f40;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 22px 0px;
+}
+img {
+    /* object-fit: cover; */
+    /* padding: 10px 0; */
+    width: 90%;
+}
+/* .row {
+    background: #986565;
+} */
+p.rightLogin {
+    font-size: 15px;
+    /* float: right; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #f86f03;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h1.Register {
+    color: #231f40;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 22px 0px;
+}
+p.note {
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #b6effb;
+    /* position: relative; */
+    padding: 14px;
+    /* margin-bottom: 1rem; */
+    border: 1px solid #00000012;
+    /* border-radius: 0.25rem; */
+    font-size: 15px;
+    border-radius: 5px;
+}
+input.mobileNumber, .form-control.is-invalid, .was-validated .form-control:invalid {
+    background: #F5F5F5;
+    border-radius: 5px;
+    border: 0 none;
+    height: 60px;
+    padding: 0 25px;
+    color: #6f6b80;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    width: -webkit-fill-available;
+}
+.checkbox-parent {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.checkbox-parent input[type="checkbox"] {
+    width: 8%;
+    display: block;
+    height: 16px;
+    position: relative;
+    top: 5px;
+}
+
+.checkbox-parent p {
+    padding:0 5px;
+    color: gray;
+    font-weight: 400;
+    display: block;
+    width:90%;
+}
+.Privacy{
+    cursor: pointer;
+   color: orangered; 
+}
+button.btn-thm {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    display: block;
+    font-weight: 500;
+    transition: 0.3s;
+    border: var(--border-width) solid #525fe1;
+    background: #525fe1;
+    color: #ffffff;
+    height: 60px;
+    margin-top: 32px;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+section#tellnet {
+    padding-top: 3rem;
+}
+@media (min-width: 992px){
+    section#tellnet {
+        padding-top: 5rem;
+    }
+}
+@media only screen and (max-width:475px) {
+    #tellnet .heading{
+        padding: 0 ;
+        
+    } 
+    .row.tellnetMain-Row {
+        padding: 15px;
+    }
+    .tellnetColum.card{
+        padding: 16;
+        /* margin: 10px; */
+    }
+    /* .tellnetMain-Row {
+
+    } */
+    button.btn-primary {
+        height: 44px;
+    }
+    .navbar-brand{
+        position: relative !important;
+    }
+    #myMenubar .navbar-brand img{
+        width:106px !important
+    }
+}
+.errormsg, .text-danger {
+    color: #dc3545!important;
+    font-size: 12px;
+    --bs-text-opacity: 1;
+}
+.ft-logo{
+    width: 50%;
+    height: auto;
+    background-color: #f6f6f6;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+}
+@media only screen and (max-width:760px ){
+    section#OUR_BENEFITS, #WHY_US {
+        padding: 0rem 0 1rem;
+    }
+    #OUR_BENEFITS .benefits {
+        margin: 0;
+        padding: 2px 15px;
+        background-color: #ecd6fc;
+        border-radius: 50px;
+        width: fit-content;
+        color: #704b8b;
+        margin-top: 41px;
+    }
+    #Radiant .h1, h1 {
+        font-size: 1.5rem;
+    }
+    .padding-small-scr{
+        padding:8px;
+    }
+     #Radiant img.congratulation {
+   display: none;
+    }
+    #Radiant img.all_studants{
+    display: none;
+    }
+    #OUR_BENEFITS .img-1{
+        width:60%;
+        margin: auto;
+        margin-left: 43px;
+    }
+
+    #ABOUT_COURSES .benefits {
+        margin-top: 10px;
+    }
+    #FAQ .purple_bg{
+        margin-bottom: 41px;
+    }
+    #ABOUT_COURSES .main-heading {
+        text-align: left;
+        margin-top: 25px;
+        /* font-weight: 600; */
+        text-transform: none;
+        font-size: 22px;
+        line-height: 29px;
+        color: #30353b;
+    }
+    #FAQ .main-heading {
+        text-align: left;
+        margin-top: 25px;
+        /* font-weight: 600; */
+        text-transform: none;
+        font-size: 22px;
+        line-height: 29px;
+        color: #30353b;
+    }
+    #OUR_BENEFITS  .main-heading {
+        text-align: left;
+        margin-top: 25px;
+        /* font-weight: 600; */
+        text-transform: none;
+        font-size: 22px;
+        line-height: 29px;
+        color: #30353b;
+    }
+    #herosection{
+        margin-top: 88px;
+    }
+  
+}
+#sylabus li.nav-item.course-col1-small .nav-link {
+    font-weight: 700;
+    border-radius: 18px;
+    min-width: 13.5rem;
+    margin-bottom: 5px;
+}
