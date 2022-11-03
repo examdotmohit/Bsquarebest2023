@@ -81,4 +81,75 @@ public class maincontent
 
         return temp1;
     }
+
+    public string methoderror()
+    {
+        return "{\"status\":\"false\",\"code\":\"method_not_allowed\",\"msg\":\"Please provide valid http method.\"}";
+    }
+
+    public string jsoncreate3all(string para1, string para2, string para3, string para4, string para5, string para6)
+    {
+        return "{\"" + para1 + "\":\"" + para2 + "\",\"" + para3 + "\":\"" + para4 + "\",\"" + para5 + "\":\"" + para6 + "\"}";
+    }
+
+    public string jsoncreate3(string status, string code, string msg)
+    {
+        return "{\"status\":\"" + status + "\",\"code\":\"" + code + "\",\"msg\":\"" + msg + "\"}";
+    }
+
+    public string jsoncreate4(string status, string code, string msg, string paraname, string paravalue)
+    {
+        return "{\"status\":\"" + status + "\",\"code\":\"" + code + "\",\"" + paraname + "\":\"" + paravalue + "\",\"msg\":\"" + msg + "\"}";
+    }
+
+    public string jsoncreate5(string status, string code, string msg, string paraname, string paravalue, string paraname1, string paravalue1)
+    {
+        return "{\"status\":\"" + status + "\",\"code\":\"" + code + "\",\"" + paraname + "\":\"" + paravalue + "\",\"" + paraname1 + "\":\"" + paravalue1 + "\",\"msg\":\"" + msg + "\"}";
+    }
+
+    public string jsoncreate6(string status, string code, string msg, string paraname, string paravalue, string paraname1, string paravalue1, string paraname2, string paravalue2)
+    {
+        return "{\"status\":\"" + status + "\",\"code\":\"" + code + "\",\"" + paraname + "\":\"" + paravalue + "\",\"" + paraname1 + "\":\"" + paravalue1 + "\",\"" + paraname2 + "\":\"" + paravalue2 + "\",\"msg\":\"" + msg + "\"}";
+    }
+
+    public string jsoncreate7(string status, string code, string msg, string paraname, string paravalue, string paraname1, string paravalue1, string paraname2, string paravalue2, string paraname3, string paravalue3)
+    {
+        return "{\"status\":\"" + status + "\",\"code\":\"" + code + "\",\"" + paraname + "\":\"" + paravalue + "\",\"" + paraname1 + "\":\"" + paravalue1 + "\",\"" + paraname2 + "\":\"" + paravalue2 + "\",\"" + paraname3 + "\":\"" + paravalue3 + "\",\"msg\":\"" + msg + "\"}";
+    }
+
+    public string jsoncreate8(string status, string code, string msg, string paraname, string paravalue, string paraname1, string paravalue1, string paraname2, string paravalue2, string paraname3, string paravalue3, string paraname4, string paravalue4)
+    {
+        return "{\"status\":\"" + status + "\",\"code\":\"" + code + "\",\"" + paraname + "\":\"" + paravalue + "\",\"" + paraname1 + "\":\"" + paravalue1 + "\",\"" + paraname2 + "\":\"" + paravalue2 + "\",\"" + paraname3 + "\":\"" + paravalue3 + "\",\"" + paraname4 + "\":\"" + paravalue4 + "\",\"msg\":\"" + msg + "\"}";
+    }
+
+    public string epoch2string(double epoch)
+    {
+        return new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(epoch).ToString();
+    }
+
+    public static Int32 GetTimestamp(DateTime value)
+    {
+        Int32 unixTimestamp = (Int32)(DateTime.Now.Subtract(new
+    DateTime(1970, 1, 1))).TotalSeconds;
+
+        return unixTimestamp;
+    }
+
+    public bool gettimedifferenceinmin(double date)
+    {
+        string datetoday = datetimesend();
+
+        DateTime dt1 = Convert.ToDateTime(datetoday);
+        DateTime dt2 = Convert.ToDateTime(epoch2string(date));
+
+        TimeSpan ts = dt1 - dt2;
+        if (ts.TotalMinutes > 5)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }
