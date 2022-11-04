@@ -298,7 +298,7 @@
                         <div class="col-lg-6 col-sm-12">
                             <div class="purple_bg">
                                 <img class="img2 about-image"
-                                    src="https://i.filecdn.in/765clcdtse/2(1)-1665830161828.png" alt="">
+                                    src="<%= maincontent.cdnurl %>/3.jpg" alt="">
                                 <!-- <img class="img-2" src="/765clcdtse/websites/dtseskr/online-tutor-theme/assets/img/education-image06-2.webp" alt=""> -->
                                 <!-- <img class="img-3" src="/765clcdtse/websites/dtseskr/online-tutor-theme/assets/img/education-image05.webp" alt=""> -->
                             </div>
