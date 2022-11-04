@@ -33,7 +33,7 @@
 
 
 
-    <section id="mainformpanel" style="display:none;"><div class="container-fluid"><div class="row Tellnet_heading mt-20"><div class="col-12"><h1 class="heading">
+    <section id="mainformpanel"><div class="container-fluid"><div class="row Tellnet_heading mt-20"><div class="col-12"><h1 class="heading">
                            BSQUARE Admission cum Scholarship Test
                         </h1></div></div></div> 
       
@@ -115,13 +115,16 @@
                                     placeholder="Email Address" class="form-control" data-vv-id="4" aria-required="true"
                                     aria-invalid="false">
                             </div>
-                            <div class="col-lg-6 col-md-6 mb-3">
+                            <div class="col-lg-4 col-md-4 mb-3">
                                 <label>Photo<span class="text-danger">*</span></label>
                                 <span
                                     class="text-danger" style="font-size: 12px;"></span>
                                 <input type="file" name="photo"
                                     placeholder="Student Photo" class="form-control" data-vv-id="4" aria-required="true"
                                     aria-invalid="false">
+                            </div>
+                            <div class="col-lg-2 col-md-2 mb-3">
+                                <button class="btn-primary photosubmit" id="photosubmit" >Submit</button>
                             </div>
 
 

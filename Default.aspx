@@ -96,7 +96,7 @@
                                         <div class="whyCard-Content">
                                             <p class="text text-center">National Ranks & Total Prizes for Students</p>
                                             
-                                            <h1 class="text text-center"><span class="bolderr"><b>1,000</b></span></h1>
+                                            <h1 class="text text-center"><span class="bolderr"><b>1,000+</b></span></h1>
                                            
                                         </div>
                                     </div>

@@ -598,6 +598,21 @@
         margin-right: 0;
     }
 
+    .photosubmit {
+        border-radius: 28px;
+        background-color: #307ad5;
+        padding: 8px 22px;
+        position: relative;
+        display: inline-block;
+        margin-left: 0;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 15px;
+    }
+
     .successMsgClass {
         font-size: 25px;
         background: #b3dcb3;
