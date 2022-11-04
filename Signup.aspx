@@ -1,48 +1,46 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="/main.master" AutoEventWireup="true" CodeFile="Signup.aspx.cs" Inherits="Signup" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    Singup | <%= maincontent.websitename %>
+    <title>Signup | <%= maincontent.websitename %></title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
 
 
-    <div class="tellnetColum card col-lg-6 offset-lg-3">
-        <form method="POST" id="form-3" role="form" class="was-validated">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
-            <p class="rightLogin mt-5">
-                <a href="/login" class="zone-color">Click here to
-                Login</a>
-            </p>
-            <h1 class="Register">Register</h1>
-            <p class="note">Only One Aspirant can be enrolled from One Mobile Number.</p>
-            <input type="number"
-                placeholder="Type Mobile number" name="Mobile Number" required="required" max-length="10"
-                class="mobileNumber" data-vv-id="1" aria-required="true" aria-invalid="true">
-            <span class="text-danger"
-                style="font-size: 12px;"></span>
-            <div class="checkbox-parent mt-3">
-                <input type="checkbox" name="terms" required="required">
-                <p>I authorize B-Square Academy to send information time to time via SMS, WhatsApp or at Postal Address.</p>
-            </div>
-            <div class="checkbox-parent mt-2">
-                <input type="checkbox" name="Privacy" required="required">
-                <p>I agree to <a href="https://bsquareparivar.in/privacy-policy/" class="Privacy">Privacy Policy</a></p>
-            </div>
-            <!---->
-            <button class="btn-primary newbtn">Continue</button>
-        </form>
-    </div>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+
+  <section id="mobnopanel"><div class="container-fluid"><div class="row Tellnet_heading mt-20"><div class="col-12"><h1 class="heading">
+                            BEST 2023 - Online Registration Form
+                        </h1></div></div></div> 
+      
+      <div class="container mt-5 mb-2"><div class="row tellnetMain-Row "><div class="tellnetColum card col-lg-6 offset-lg-3">
+          <p class="rightLogin"><a href="/login" style="text-decoration: none; color: rgb(122, 37, 39);">Click here to Login</a></p> <h1 class="Register">Register</h1> <p class="note">Only One Aspirant can be enrolled from One Mobile Number.</p> <input type="number" placeholder="Type Mobile number" name="Mobile Number" required="required" max-length="10" class="mobileNumber" id="mobno" onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;">  <button class="btn-primary btn-thm" id="mobcheck" >Continue</button></div></div></div>
+
+  </section>
+            
+
+   
 
 
 
 
 
+   
 
-    <div id="tg-wrapper" class="tg-wrapper" style="margin-top: 12px;">
-        <h1 class="pageHeading text-center">CLC Tecno Admission cum Scholarship Test </h1>
-        <div class="container">
-            <form action="/something" method="post">
+
+
+
+    <section id="mainformpanel" style="display:none;"><div class="container-fluid"><div class="row Tellnet_heading mt-20"><div class="col-12"><h1 class="heading">
+                           BSQUARE Admission cum Scholarship Test
+                        </h1></div></div></div> 
+      
+      <div class="container mt-5 mb-2"><div class="row tellnetMain-Row ">
+
+   
+            
                 <div class="formSection">
                     <div class="form-input">
                         <div class="row mb-3 mt-3" style="display: flex;">
@@ -208,14 +206,13 @@
                         </div>
                     </div>
                 </div>
-            </form>
-        </div>
-    </div>
+           
+       
+
+          </div></div></section>
 
 
-
-
-    <div class="container">
+    <%--<div class="container">
         <form action="/something" method="post" data-gtm-form-interact-id="0">
             <div class="formSection">
 
@@ -315,15 +312,20 @@
             </div>
 
         </form>
-    </div>
+    </div>--%>
+
+          
 
 
 
 
+   
+        <section id="finalpanel"><div class="container-fluid"><div class="row Tellnet_heading mt-20"><div class="col-12"><h1 class="heading">
+                           BSQUARE Admission cum Scholarship Test
+                        </h1></div></div></div> 
+      
+      <div class="container mt-5 mb-2"><div class="row tellnetMain-Row ">
 
-
-    <div class="container">
-        <form action="/something" method="post" data-gtm-form-interact-id="0">
             <div class="formSection">
                   <div class="form-input">
                     <div class="row mb-3 mt-3">
@@ -347,12 +349,43 @@
                     </div>
                 </div>
             </div>
-        </form>
+        
+  </div></div></section>
+
+              </ContentTemplate>
+        </asp:UpdatePanel>
+
+     <div id="txnimage" class="modal" style="padding-top: 160px;" data-backdrop="static">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="col-md-12" style="text-align: center;">
+            <img class="img-responsive" src="../assets/301.svg" style="width:50%" />
+          </div>
+        </div>
+      </div>
     </div>
-
-
+</div>
 
 </asp:Content>
+
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
+     <link rel="stylesheet" type="text/css" href="https://www.ikedapl.com/primeikedapl/assets/app-assets/vendors/css/extensions/sweetalert2.min.css">
+    <script src="https://www.ikedapl.com/primeikedapl/assets/app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script>
+        $(document).on('click', '#mobcheck', function (e) {
+            e.preventDefault();
+            var mobilenumber = $('#mobno').val();
+            jQuery.ajax({ url: "api/checkmobno", type: 'POST', dataType: 'json', beforeSend: function () { $('#txnimage').modal('show'); }, data: { mobile: mobilenumber } })
+                .done(function (response) {
+                    $('#txnimage').modal('hide');
+                    if (response.status == 'S') {
+                        $('#mobnopanel').hide();
+                        $('#mainformpanel').show();
+                    }
+                    else { swal.fire({ title: "<u>Error</u>", allowOutsideClick: false, icon: "error", html: response.message, showCloseButton: !1, showCancelButton: !1, confirmButtonText: 'OK, Got It!' }); }
+                });
+        });
+    </script>
 </asp:Content>
 
