@@ -339,7 +339,7 @@
 
 
    
-        <section id="finalpanel"><div class="container-fluid"><div class="row Tellnet_heading mt-20"><div class="col-12"><h1 class="heading">
+        <section id="finalpanel" style="display:none;"><div class="container-fluid"><div class="row Tellnet_heading mt-20"><div class="col-12"><h1 class="heading">
                            BSQUARE Admission cum Scholarship Test
                         </h1></div></div></div> 
       
