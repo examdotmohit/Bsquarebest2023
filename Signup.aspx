@@ -2,6 +2,21 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>Signup | <%= maincontent.websitename %></title>
+    <style>
+        .divWaiting {
+            position: fixed;
+            background-color: #FAFAFA;
+            z-index: 2147483647 !important;
+            opacity: 0.8;
+            overflow: hidden;
+            text-align: center;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding-top: 20%;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -12,7 +27,7 @@
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
 
-            <section id="mobnopanel">
+            <section id="mobnopanel" runat="server" visible="true">
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -28,14 +43,15 @@
                             <p class="rightLogin"><a href="/login" style="text-decoration: none; color: rgb(122, 37, 39);">Click here to Login</a></p>
                             <h1 class="Register">Register</h1>
                             <p class="note">Only One Aspirant can be enrolled from One Mobile Number.</p>
-                            <input type="number" placeholder="Type Mobile number" name="Mobile Number" required="required" max-length="10" class="mobileNumber" id="mobno" onkeydown="if(this.value.length==10 && event.keyCode!=8) return false;">
-                            <button class="btn-primary btn-thm" id="mobcheck">Continue</button>
+                             <asp:TextBox ID="senderMobile" runat="server" CssClass="form-control" onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;" TextMode="Number" ValidationGroup="sendermobilegroup"></asp:TextBox>
+                            <button class="btn-primary btn-thm" id="mobcheck" runat="server" onserverclick="mobcheck_ServerClick">Continue</button>
                         </div>
                     </div>
                 </div>
 
             </section>
 
+<<<<<<< HEAD
 
 
 
@@ -49,6 +65,9 @@
 
 
             <section id="mainformpanel" style="display:none">
+=======
+            <section id="mainformpanel"  runat="server" visible="false">
+>>>>>>> 480fd39398cd7dbbefa30dd600973b9e900d9d6c
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -141,12 +160,11 @@
                                         <label>Photo<span class="text-danger">*</span></label>
                                         <span
                                             class="text-danger" style="font-size: 12px;"></span>
-                                        <input type="file" name="photo"
-                                            placeholder="Student Photo" class="form-control" data-vv-id="4" aria-required="true"
-                                            aria-invalid="false">
+                                        <input type="file" placeholder="Student Photo" class="form-control" name="fileupload">
+                                       
                                     </div>
                                     <div class="col-lg-2 col-md-2 mb-3">
-                                        <button class="btn-primary photosubmit" id="photosubmit">Submit</button>
+                                        <button class="btn-primary" onclick="uploadFile()">Submit</button>
                                     </div>
 
 
@@ -381,7 +399,7 @@
 
 
 
-            <section id="finalpanel" style="display: none;">
+            <section id="finalpanel" runat="server" visible="false">
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -425,6 +443,14 @@
         </ContentTemplate>
     </asp:UpdatePanel>
 
+    <asp:UpdateProgress ID="UpdateProgress1" runat="Server" AssociatedUpdatePanelID="UpdatePanel1" DisplayAfter="1"> 
+    <ProgressTemplate > 
+                    <div class="divWaiting" id="Dv_Loader">
+                <img src="301.svg" style="vertical-align: middle" width="200" />
+            </div>
+    </ProgressTemplate> 
+</asp:UpdateProgress> 
+
     <div id="txnimage" class="modal" style="padding-top: 160px;" data-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -442,29 +468,6 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
     <link rel="stylesheet" type="text/css" href="https://www.ikedapl.com/primeikedapl/assets/app-assets/vendors/css/extensions/sweetalert2.min.css">
     <script src="https://www.ikedapl.com/primeikedapl/assets/app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
-    <script>
-        $(document).on('click', '#mobcheck', function (e) {
-            e.preventDefault();
-            var mobilenumber = $('#mobno').val();
-            jQuery.ajax({ url: "api/checkmobno", type: 'POST', dataType: 'json', beforeSend: function () { $('#txnimage').modal('show'); }, data: { mobile: mobilenumber } })
-                .done(function (response) {
-                    $('#txnimage').modal('hide');
-                    if (response.status == 'S') {
-                        $('#mobnopanel').hide();
-                        $('#mainformpanel').show();
-                        $('#finalpanel').hide();
-                    }
-                    else { swal.fire({ title: "<u>Error</u>", allowOutsideClick: false, icon: "error", html: response.message, showCloseButton: !1, showCancelButton: !1, confirmButtonText: 'OK, Got It!' }); }
-                });
-        });
-
-    $(document).on('click', '#formsubmite', function (e) {
-            e.preventDefault();
- swal.fire({ title: "<u>Error</u>", allowOutsideClick: false, icon: "error",showCloseButton: !1, showCancelButton: !1, confirmButtonText: 'OK, Got It!' });
-        });
-
-
-
-    </script>
+    
 </asp:Content>
 
