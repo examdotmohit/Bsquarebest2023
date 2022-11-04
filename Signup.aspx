@@ -220,7 +220,7 @@
                         </div>
                         <div class="row formBtnSection h-auto">
                             <!---->
-                            <button class="btn-primary newbtn">Next</button>
+                            <button class="btn-primary newbtn" id="formsubmite">Next</button>
                             <!---->
                         </div>
                     </div>
@@ -401,10 +401,19 @@
                     if (response.status == 'S') {
                         $('#mobnopanel').hide();
                         $('#mainformpanel').show();
+                        $('#finalpanel').hide();
                     }
                     else { swal.fire({ title: "<u>Error</u>", allowOutsideClick: false, icon: "error", html: response.message, showCloseButton: !1, showCancelButton: !1, confirmButtonText: 'OK, Got It!' }); }
                 });
         });
+
+    $(document).on('click', '#formsubmite', function (e) {
+            e.preventDefault();
+ swal.fire({ title: "<u>Error</u>", allowOutsideClick: false, icon: "error",showCloseButton: !1, showCancelButton: !1, confirmButtonText: 'OK, Got It!' });
+        });
+
+
+
     </script>
 </asp:Content>
 
