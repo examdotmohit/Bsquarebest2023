@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="/main.master" AutoEventWireup="true" CodeFile="Signup.aspx.cs" Inherits="Signup" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="/main.master" AutoEventWireup="true" CodeFile="Signup.aspx.cs" Inherits="Signup" MaintainScrollPositionOnPostback="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <title>Signup | <%= maincontent.websitename %></title>
@@ -22,12 +22,10 @@
 
 
 
-    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    
+   
 
-    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-        <ContentTemplate>
-
-            <section id="mobnopanel" runat="server" visible="true">
+            <section id="mobnopanel" runat="server" visible="false">
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -40,34 +38,41 @@
                 <div class="container mt-5 mb-2">
                     <div class="row tellnetMain-Row ">
                         <div class="tellnetColum card col-lg-6 offset-lg-3">
-                            <p class="rightLogin"><a href="/login" style="text-decoration: none; color: rgb(122, 37, 39);">Click here to Login</a></p>
+                           
                             <h1 class="Register">Register</h1>
                             <p class="note">Only One Aspirant can be enrolled from One Mobile Number.</p>
-                             <asp:TextBox ID="senderMobile" runat="server" CssClass="form-control" onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;" TextMode="Number" ValidationGroup="sendermobilegroup"></asp:TextBox>
-                            <button class="btn-primary btn-thm" id="mobcheck" runat="server" onserverclick="mobcheck_ServerClick">Continue</button>
+                            <div class="alert alert-danger" role="alert" runat="server" visible="false" id="error">
+ Mobile Number Already Exist
+</div>
+                            <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1"><i class="fa fa-mobile fa-2x" aria-hidden="true" style="color:#525fe1"></i></span>
+  </div>
+  <asp:TextBox ID="senderMobile" runat="server" CssClass="form-control" onKeyDown="if(this.value.length==10 && event.keyCode!=8) return false;" TextMode="Number" TabIndex="1" ValidationGroup="sendermobilegroup" placeholder="Type Mobile Number"></asp:TextBox>
+</div>
+
+
+                            
+
+                              <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="senderMobile" Display="Dynamic" ValidationGroup="sendermobilegroup" ></asp:RequiredFieldValidator>
+
+                                                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
+                                                    ControlToValidate="senderMobile" ErrorMessage="Please enter at least 10 characters." ForeColor="Red" Font-Bold="true"
+                                                    ValidationExpression="[0-9]{10}" Display="Dynamic" ValidationGroup="sendermobilegroup" ></asp:RegularExpressionValidator>
+                            
+                            <button class="btn-primary btn-thm" id="mobcheck" runat="server" onserverclick="mobcheck_ServerClick" tabindex="2" validationgroup="sendermobilegroup">Continue</button>
                         </div>
                     </div>
                 </div>
 
             </section>
+           
 
-<<<<<<< HEAD
+   
 
-
-
-
-
-
-
-
-
-
-
-
-            <section id="mainformpanel" style="display:none">
-=======
             <section id="mainformpanel"  runat="server" visible="false">
->>>>>>> 480fd39398cd7dbbefa30dd600973b9e900d9d6c
+
+                
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -80,37 +85,48 @@
                 <div class="container mt-5 mb-2">
                     <div class="row tellnetMain-Row ">
 
-
+                      
 
                         <div class="formSection" >
                             <div class="form-input">
                                 <div class="row mb-3 mt-3" style="display: flex;">
-                                    <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="col-lg-12 col-md-12">
                                         <div class="sectionHeading">
+                                             <div class="alert alert-danger" role="alert" runat="server" visible="false" id="errorinmainform">
+                                                 <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+</div>
+
+                                              <h5>Mobile Number:<asp:Label ID="mobnos" runat="server" Text="Label"></asp:Label></h5>
+                        
                                             <h1>Class Details</h1>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="col-lg-12 col-md-1s2 mb-3">
                                         <label>
                                             Present Class 2022-2023<span
                                                 class="text-danger">*</span></label>
                                         <span class="text-danger"
                                             style="font-size: 12px;"></span>
-                                        <select name="Class" class="form-control">
-                                            <option value="" selected="selected" disabled="disabled">Please Select</option>
-                                            <option value="[object Object]">Class 5</option>
-                                            <option value="[object Object]">Class 6</option>
-                                            <option value="[object Object]">Class 7</option>
-                                            <option value="[object Object]">Class 8</option>
-                                            <option value="[object Object]">Class 9</option>
-                                            <option value="[object Object]">Class 10</option>
-                                            <option value="[object Object]">Class 11 (Maths)</option>
-                                            <option value="[object Object]">Class 11 (Bio)</option>
-                                            <option value="[object Object]">Class 12 (Maths)</option>
-                                            <option value="[object Object]">Class 12 (Bio)</option>
-                                        </select>
+
+                                        <asp:DropDownList ID="Class" runat="server" CssClass="form-select">
+                                             <asp:ListItem value="0">Please Select</asp:ListItem>
+                                            <asp:ListItem value="5TH">Class 5</asp:ListItem>
+                                            <asp:ListItem value="6TH">Class 6</asp:ListItem>
+                                            <asp:ListItem value="7TH">Class 7</asp:ListItem>
+                                            <asp:ListItem value="8TH">Class 8</asp:ListItem>
+                                            <asp:ListItem value="9TH">Class 9</asp:ListItem>
+                                            <asp:ListItem value="10TH">Class 10</asp:ListItem>
+                                            <asp:ListItem value="11TH MATH">Class 11 (Maths)</asp:ListItem>
+                                            <asp:ListItem value="11TH BIO">Class 11 (Bio)</asp:ListItem>
+                                            <asp:ListItem value="12TH MATH">Class 12 (Maths)</asp:ListItem>
+                                            <asp:ListItem value="12TH BIO">Class 12 (Bio)</asp:ListItem>
+                                        </asp:DropDownList>
+                                  
+                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="Class" Display="Dynamic" InitialValue="0"></asp:RequiredFieldValidator>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 mb-3">
+
+
+                                    <div class="col-lg-12 col-md-12">
                                         <div class="sectionHeading">
                                             <h1>Personal Details</h1>
                                         </div>
@@ -119,59 +135,56 @@
                                         <label>Student Name<span class="text-danger">*</span></label>
                                         <span class="text-danger" style="font-size: 12px;"></span>
                                         <input name="Student Name"
-                                            type="text" placeholder="Full Name" class="form-control" data-vv-id="1" aria-required="true"
-                                            aria-invalid="true">
+                                            type="text" placeholder="Full Name" class="form-control" runat="server" id="name">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="name" Display="Dynamic"></asp:RequiredFieldValidator>
                                     </div>
                                     <div class="col-lg-6 col-md-6 mb-3">
                                         <label>Father’s Name<span class="text-danger">*</span></label>
                                         <span class="text-danger" style="font-size: 12px;"></span>
                                         <input name="Father's Name"
-                                            type="text" placeholder="Fathers Name" class="form-control" data-vv-id="2"
-                                            aria-required="true" aria-invalid="false">
+                                            type="text" placeholder="Fathers Name" class="form-control" id="fname" runat="server">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="fname" Display="Dynamic"></asp:RequiredFieldValidator>
                                     </div>
                                     <div class="col-lg-6 col-md-6 mb-3">
                                         <label>Gender<span class="text-danger">*</span></label>
                                         <span
                                             class="text-danger" style="font-size: 12px;"></span>
-                                        <select name="Class"
-                                            class="form-control" data-vv-id="3" aria-required="true" aria-invalid="false">
-                                            <option value="none" selected="selected" disabled="disabled">Select Gender</option>
-                                            <option value="Male">Male</option>
-                                            <option value="Female">Female</option>
-                                        </select>
+                                      
+                                        <asp:DropDownList ID="gender" runat="server" CssClass="form-select">
+                                             <asp:ListItem value="0">Select Gender</asp:ListItem>
+                                            <asp:ListItem value="Male">Male</asp:ListItem>
+                                            <asp:ListItem value="Female">Female</asp:ListItem>
+
+                                        </asp:DropDownList>
+
+                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="gender" Display="Dynamic" InitialValue="0"></asp:RequiredFieldValidator>
+
                                     </div>
                                     <div class="col-lg-6 col-md-6 mb-3">
                                         <label>DOB<span class="text-danger">*</span></label>
                                         <span
                                             class="text-danger" style="font-size: 12px;"></span>
-                                        <input type="date" name="DOB"
-                                            placeholder="Date Of Birth" class="form-control" data-vv-id="4" aria-required="true"
-                                            aria-invalid="false">
+                                        <input type="date" id="DOB"
+                                            placeholder="Date Of Birth" class="form-control" runat="server">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="DOB" Display="Dynamic"></asp:RequiredFieldValidator>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 mb-3">
+                                    <div class="col-lg-12 col-md-12 mb-3">
                                         <label>Email Address<span class="text-danger">*</span></label>
                                         <span
                                             class="text-danger" style="font-size: 12px;"></span>
-                                        <input type="email" name="email"
-                                            placeholder="Email Address" class="form-control" data-vv-id="4" aria-required="true"
-                                            aria-invalid="false">
+                                        <input type="text" id="email"
+                                            placeholder="Email Address" class="form-control" runat="server">
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="email" Display="Dynamic"></asp:RequiredFieldValidator>
+                                         <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Red" Font-Bold="true" ControlToValidate="email" ErrorMessage="Invaild Email ID"></asp:RegularExpressionValidator>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 mb-3">
-                                        <label>Photo<span class="text-danger">*</span></label>
-                                        <span
-                                            class="text-danger" style="font-size: 12px;"></span>
-                                        <input type="file" placeholder="Student Photo" class="form-control" name="fileupload">
-                                       
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 mb-3">
-                                        <button class="btn-primary" onclick="uploadFile()">Submit</button>
-                                    </div>
+                                   
+                                   
 
 
 
 
-                                    <div class="row mb-3 mt-3">
-                                        <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="row mt-3">
+                                        <div class="col-lg-12 col-md-12">
                                             <div class="sectionHeading">
                                                 <h1>Permanent Address</h1>
                                             </div>
@@ -179,46 +192,52 @@
                                         <div class="col-lg-6 col-md-6 mb-3">
                                             <label>Pin Code: <span class="text-danger">*</span></label>
                                             <span class="text-danger" style="font-size: 12px;"></span>
-                                            <input name="Address Pin Code"
-                                                type="number" placeholder="Pin Code" class="form-control" data-vv-id="5"
-                                                aria-required="true" aria-invalid="false">
+                                            <input id="pincode"
+                                                type="number" placeholder="Pin Code" class="form-control" onKeyDown="if(this.value.length==6 && event.keyCode!=8) return false;" runat="server">
+
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="pincode" Display="Dynamic"></asp:RequiredFieldValidator>
                                         </div>
+
                                         <div class="col-lg-6 col-md-6 mb-3">
                                             <label>District:<span class="text-danger">*</span></label>
                                             <span
                                                 class="text-danger" style="font-size: 12px;"></span>
-                                            <select name="Address District"
-                                                required="required" class="form-control">
-                                                <option value="none" selected="selected" disabled="disabled">Nagaur</option>
+                                            <select id="Address"
+                                                required="required" class="form-select" runat="server">
+                                                <option value="Nagaur">Nagaur</option>
                                             </select>
+                                           
                                         </div>
                                         <div class="col-lg-6 col-md-6 mb-3">
                                             <label>Tehsil:<span class="text-danger">*</span></label>
                                             <span class="text-danger" style="font-size: 12px;"></span>
-                                            <select name="Address Tehsil"
-                                                required="required" class="form-control">
-                                                <option value="none" selected="selected" disabled="disabled">Select Tehsil</option>
-                                                <option value="DEGANA">DEGANA</option>
-                                                <option value="DIDWANA">DIDWANA</option>
-                                                <option value="JAYAL">JAYAL</option>
-                                                <option value="KHEENVSAR">KHEENVSAR</option>
-                                                <option value="KUCHAMAN">KUCHAMAN CITY</option>
-                                                <option value="LADNU">LADNU</option>
-                                                <option value="MAKRANA">MAKRANA</option>
-                                                <option value="MERTA">MERTA</option>
-                                                <option value="MUNDWA">MUNDWA</option>
-                                                <option value="NAGAUR">NAGAUR</option>
-                                                <option value="NAWA">NAWA</option>
-                                                <option value="PARBATSAR">PARBATSAR</option>
-                                                <option value="RIYANBARI">RIYANBARI</option>
-                                            </select>
+                                            
+                                            <asp:DropDownList ID="Tehsil" runat="server" CssClass="form-select">
+                                                 <asp:ListItem value="0">Select Tehsil</asp:ListItem>
+                                                <asp:ListItem value="DEGANA">DEGANA</asp:ListItem>
+                                                <asp:ListItem value="DIDWANA">DIDWANA</asp:ListItem>
+                                                <asp:ListItem value="JAYAL">JAYAL</asp:ListItem>
+                                                <asp:ListItem value="KHEENVSAR">KHEENVSAR</asp:ListItem>
+                                                <asp:ListItem value="KUCHAMAN">KUCHAMAN CITY</asp:ListItem>
+                                                <asp:ListItem value="LADNU">LADNU</asp:ListItem>
+                                                <asp:ListItem value="MAKRANA">MAKRANA</asp:ListItem>
+                                                <asp:ListItem value="MERTA">MERTA</asp:ListItem>
+                                                <asp:ListItem value="MUNDWA">MUNDWA</asp:ListItem>
+                                                <asp:ListItem value="NAGAUR">NAGAUR</asp:ListItem>
+                                                <asp:ListItem value="NAWA">NAWA</asp:ListItem>
+                                                <asp:ListItem value="PARBATSAR">PARBATSAR</asp:ListItem>
+                                                <asp:ListItem value="RIYANBARI">RIYANBARI</asp:ListItem>
+
+                                            </asp:DropDownList>
+                                              <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="Tehsil" Display="Dynamic" InitialValue="0"></asp:RequiredFieldValidator>
                                         </div>
+
                                         <div class="col-lg-6 col-md-6 mb-3">
                                             <label>GP/City Name: <span class="text-danger">*</span></label>
                                             <span class="text-danger" style="font-size: 12px;"></span>
-                                            <input name="GP/City Name" type="text"
-                                                placeholder="GP/City Name" class="form-control" data-vv-id="6" aria-required="true"
-                                                aria-invalid="false">
+                                            <input id="gp" type="text"
+                                                placeholder="GP/City Name" class="form-control" runat="server">
+                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="gp" Display="Dynamic"></asp:RequiredFieldValidator>
                                         </div>
 
 
@@ -231,55 +250,82 @@
                                         <div class="col-lg-6 col-md-6 mb-3">
                                             <label>School Name<span class="text-danger">*</span></label>
                                             <span class="text-danger" style="font-size: 12px;"></span>
-                                            <input name="School Name" type="text"
-                                                placeholder="School Name" class="form-control" data-vv-id="8" aria-required="true"
-                                                aria-invalid="false">
+                                            <input id="sname" type="text"
+                                                placeholder="School Name" class="form-control" runat="server">
+
+                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="sname" Display="Dynamic"></asp:RequiredFieldValidator>
                                         </div>
                                         <div class="col-lg-6 col-md-6 mb-3">
-                                            <label>Address <span class="text-danger">*</span></label>
+                                            <label>School Address <span class="text-danger">*</span></label>
                                             <span class="text-danger" style="font-size: 12px;"></span>
-                                            <input name="School address"
-                                                type="text" placeholder="School Address" class="form-control" data-vv-id="9"
-                                                aria-required="true" aria-invalid="false">
+                                            <input id="saddress"
+                                                type="text" placeholder="School Address" class="form-control" runat="server">
+ <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="saddress" Display="Dynamic"></asp:RequiredFieldValidator>
                                         </div>
                                     </div>
 
 
-                                    <div class="row mb-3 mt-3" style="display: block;">
-                                        <div class="col-lg-12 col-md-12 mb-3">
+                                    <div class="row mt-3">
+                                        <div class="col-lg-12 col-md-12">
                                             <div class="sectionHeading">
                                                 <h1>Exam Details</h1>
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-md-12 mb-3 d-flex" style="flex-wrap: wrap; row-gap: 15px;">
-                                            <div class="col-12">
-                                                <label>Select Center<span class="text-danger"></span></label>
-                                            </div>
+                                            
                                             <div class="col-lg-12 mb-3">
                                                 <label>Select Center<span class="text-danger"></span></label>
-                                                <select
-                                                    name="Tehshil" class="form-control px-2">
-                                                    <option value="" selected="selected" disabled="disabled">Select Center</option>
-                                                </select>
+                                               
+
+                                                <asp:DropDownList ID="center" AppendDataBoundItems="true" runat="server" CssClass="form-select" DataSourceID="SqlDataSource1" DataTextField="centername" DataValueField="centercode" AutoPostBack="true" OnSelectedIndexChanged="center_SelectedIndexChanged" >
+                                                    <asp:ListItem Value="0">Select Exam Center</asp:ListItem>
+                                                </asp:DropDownList>
+                                                <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:ConnectionString %>' SelectCommand="SELECT DISTINCT [centername],[centercode] FROM [centers]"></asp:SqlDataSource>
+
+                                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="center" Display="Dynamic" InitialValue="0"></asp:RequiredFieldValidator>
                                             </div>
 
                                         </div>
                                         <!---->
                                         <!---->
                                         <div class="col-lg-12 col-md-12 mb-3">
-                                            <label>Examination Date<span class="text-danger">*</span></label>
+                                            <label>Examination Date & Time<span class="text-danger">*</span></label>
                                             <span class="text-danger" style="font-size: 12px;"></span>
-                                            <select disabled="disabled" name="Exam Date"
-                                                class="form-control">
-                                                <option value="noDate" selected="selected">Select Exam Date</option>
-                                            </select>
+                                            <asp:TextBox ID="examdate" CssClass="form-control" runat="server" Enabled="false"></asp:TextBox>
+                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="examdate" Display="Dynamic"></asp:RequiredFieldValidator>
                                         </div>
+
+
+
                                     </div>
+
+
+                                      <div class="row mt-3">
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="sectionHeading">
+                                                <h1>Photo</h1>
+                                            </div>
+                                        </div>
+                                     <div class="col-lg-12 col-md-12
+                                        mb-3">
+                                        <label>Photo<span class="text-danger">*</span></label>
+                                        <span
+                                            class="text-danger" style="font-size: 12px;"></span>
+                                       
+                                        <asp:FileUpload ID="FileUpload1" runat="server" CssClass="form-control" />
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Required!!" ForeColor="Red" Font-Bold="true" ControlToValidate="FileUpload1" Display="Dynamic"></asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator id="RegularExpressionValidator6" errormessage="please upload only images" ForeColor="red" ControlToValidate="FileUpload1" ValidationExpression="^(([a-zA-Z]:)|(\\{2}\w+)\$?)(\\(\w[\w].*))(.jpeg|.JPEG|.jpg|.JPG|.png|.PNG)$" runat="server" Font-Bold="true" Display="Dynamic" />  
+                                       
+                                    </div></div>
+
+
+
+
                                 </div>
                                 <div class="row formBtnSection h-auto">
-                                    <!---->
-                                    <button class="btn-primary newbtn" id="formsubmite">Next</button>
-                                    <!---->
+
+                                    <asp:Button ID="Button1" runat="server" Text="Submit Application" CssClass="btn btn-primary newbtn" OnClick="Button1_Click" />
+                                    <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red"/>  
                                 </div>
                             </div>
                         </div>
@@ -393,12 +439,6 @@
         </form>
     </div>--%>
 
-
-
-
-
-
-
             <section id="finalpanel" runat="server" visible="false">
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
@@ -416,21 +456,23 @@
                             <div class="form-input">
                                 <div class="row mb-3 mt-3">
                                     <div class="successMsgClass">
-                                        <p>Dear DFGSfd,</p>
-                                        <span class="text-success"><i aria-hidden="true"
+                                        Dear <asp:Label ID="username" runat="server" Text="Label"></asp:Label>,<br />
+                                        <span><i aria-hidden="true"
                                             class="fa fa-hand-o-right"></i>
                                             Your registration with B-Square BEST 2023 is successful.</span>
                                         <br>
                                         <span><i aria-hidden="true"
                                             class="fa fa-hand-o-right"></i>
                                             Your Roll Number for BEST 2023 is
-                            <span style="color: black; font-weight: bold;">232061136</span>
+                            <span style="color: black; font-weight: bold;">
+                                <asp:Label ID="rollnolbl" runat="server" Text="Label"></asp:Label></span>
                                             and your registered Mobile number
-                            <span style="color: black; font-weight: bold;">9001504400</span>
+                            <span style="color: black; font-weight: bold;">
+                                <asp:Label ID="moblbl" runat="server" Text="Label"></asp:Label></span>
                                             is your USER ID.
                                         </span>
                                         <br>
-                                        <p>Thank You!.</p>
+                                       Thank You!.
                                     </div>
                                 </div>
                             </div>
@@ -440,16 +482,7 @@
                 </div>
             </section>
 
-        </ContentTemplate>
-    </asp:UpdatePanel>
-
-    <asp:UpdateProgress ID="UpdateProgress1" runat="Server" AssociatedUpdatePanelID="UpdatePanel1" DisplayAfter="1"> 
-    <ProgressTemplate > 
-                    <div class="divWaiting" id="Dv_Loader">
-                <img src="301.svg" style="vertical-align: middle" width="200" />
-            </div>
-    </ProgressTemplate> 
-</asp:UpdateProgress> 
+        
 
     <div id="txnimage" class="modal" style="padding-top: 160px;" data-backdrop="static">
         <div class="modal-dialog">
@@ -466,8 +499,8 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
-    <link rel="stylesheet" type="text/css" href="https://www.ikedapl.com/primeikedapl/assets/app-assets/vendors/css/extensions/sweetalert2.min.css">
-    <script src="https://www.ikedapl.com/primeikedapl/assets/app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+   
+   
     
 </asp:Content>
 

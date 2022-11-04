@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Download Admit Card
-    </title>
+    <title>Download Admit Card </title>
+   
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
 <style>

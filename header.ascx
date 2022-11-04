@@ -534,7 +534,7 @@
     }
 
     .mt-20 {
-        margin-top: 100px;
+        margin-top: 100px !important;
     }
 
 

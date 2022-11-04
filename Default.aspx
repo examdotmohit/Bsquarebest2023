@@ -21,7 +21,7 @@
                                 <p><b>BEST 2023, for Class V to XII </b><br>
                                     Get Rank, Recognition, Cash Prize, Scholarship & Much More.</p>
                                 <div class="buton">
-                                    <span class="Discover-Mre"><a href="/login"
+                                    <span class="Discover-Mre"><a href="/admit-card"
                                         style="color: red; text-decoration: none;">LOGIN</a></span>
                                     <span class="newbtn"><a href="/signup"
                                         style="color: white; text-decoration: none;"
