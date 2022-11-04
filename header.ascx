@@ -173,6 +173,10 @@
         #FEATURED_SERVICES {
             margin-bottom: 22rem;
         }
+
+        section#tellnet {
+            padding-top: 0rem;
+        }
     }
 
 
@@ -619,5 +623,109 @@
         color: darkgreen;
         padding: 16px;
         border-radius: 5px;
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+
+
+    .card {
+        --bs-card-spacer-y: 1rem;
+        --bs-card-spacer-x: 1rem;
+        --bs-card-title-spacer-y: 0.5rem;
+        --bs-card-border-width: 1px;
+        --bs-card-border-color: var(--bs-border-color-translucent);
+        --bs-card-border-radius: 0.375rem;
+        --bs-card-box-shadow:;
+        --bs-card-inner-border-radius: calc(0.375rem - 1px);
+        --bs-card-cap-padding-y: 0.5rem;
+        --bs-card-cap-padding-x: 1rem;
+        --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+        --bs-card-cap-color:;
+        --bs-card-height:;
+        --bs-card-color:;
+        --bs-card-bg: #fff;
+        --bs-card-img-overlay-padding: 1rem;
+        --bs-card-group-margin: 0.75rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        height: var(--bs-card-height);
+        word-wrap: break-word;
+        background-color: var(--bs-card-bg);
+        background-clip: border-box;
+        border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+        border-radius: var(--bs-card-border-radius);
+    }
+
+
+    .clcClm.card {
+        border: 1px solid #e0dddd;
+        padding: 40px;
+        border-radius: 10px;
+        position: relative;
+        /* background: #d7d7d4; */
+        box-shadow: 0 0 147px #80808059;
+    }
+
+
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+
+    input.rn-btn.edu-btn.w-100.p.mt--10 {
+        width: auto;
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding: 15px 20px;
+        border-radius: 6px;
+        display: block;
+        font-weight: 500;
+        transition: 0.3s;
+        border: var(--border-width) solid #525fe1;
+        background: #525fe1;
+        color: #ffffff;
+        height: 60px;
+        margin-top: 30px;
+    }
+
+
+    .applyonline {
+        border-radius: 28px;
+        background-color: #307ad5;
+        padding: 8px 10px;
+        position: inherit;
+        display: inline-block;
+        margin-left: 0;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 0;
+        margin-top: 17px;
     }
 </style>

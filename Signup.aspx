@@ -51,7 +51,23 @@
 
             </section>
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+            <section id="mainformpanel" style="display:none">
+=======
             <section id="mainformpanel"  runat="server" visible="false">
+>>>>>>> 480fd39398cd7dbbefa30dd600973b9e900d9d6c
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -66,7 +82,7 @@
 
 
 
-                        <div class="formSection">
+                        <div class="formSection" >
                             <div class="form-input">
                                 <div class="row mb-3 mt-3" style="display: flex;">
                                     <div class="col-lg-12 col-md-12 mb-3">
