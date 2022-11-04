@@ -180,19 +180,19 @@
                                             <select name="Address Tehsil"
                                                 required="required" class="form-control">
                                                 <option value="none" selected="selected" disabled="disabled">Select Tehsil</option>
-                                                <option value="78">DEGANA</option>
-                                                <option value="86">DIDWANA</option>
-                                                <option value="123">JAYAL</option>
-                                                <option value="142">KHEENVSAR</option>
-                                                <option value="155">KUCHAMAN CITY</option>
-                                                <option value="161">LADNU</option>
-                                                <option value="170">MAKRANA</option>
-                                                <option value="186">MERTA</option>
-                                                <option value="187">MUNDWA</option>
-                                                <option value="191">NAGAUR</option>
-                                                <option value="196">NAWA</option>
-                                                <option value="210">PARBATSAR</option>
-                                                <option value="249">RIYANBARI</option>
+                                                <option value="DEGANA">DEGANA</option>
+                                                <option value="DIDWANA">DIDWANA</option>
+                                                <option value="JAYAL">JAYAL</option>
+                                                <option value="KHEENVSAR">KHEENVSAR</option>
+                                                <option value="KUCHAMAN">KUCHAMAN CITY</option>
+                                                <option value="LADNU">LADNU</option>
+                                                <option value="MAKRANA">MAKRANA</option>
+                                                <option value="MERTA">MERTA</option>
+                                                <option value="MUNDWA">MUNDWA</option>
+                                                <option value="NAGAUR">NAGAUR</option>
+                                                <option value="NAWA">NAWA</option>
+                                                <option value="PARBATSAR">PARBATSAR</option>
+                                                <option value="RIYANBARI">RIYANBARI</option>
                                             </select>
                                         </div>
                                         <div class="col-lg-6 col-md-6 mb-3">
