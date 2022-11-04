@@ -24,7 +24,7 @@
 
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
-    <asp:UpdatePanel ID="UpdatePanel1" runat="server">d
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
 
             <section id="mobnopanel" runat="server" visible="true">
