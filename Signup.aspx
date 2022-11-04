@@ -107,6 +107,25 @@
                                     placeholder="Date Of Birth" class="form-control" data-vv-id="4" aria-required="true"
                                     aria-invalid="false">
                             </div>
+                            <div class="col-lg-6 col-md-6 mb-3">
+                                <label>Email Address<span class="text-danger">*</span></label>
+                                <span
+                                    class="text-danger" style="font-size: 12px;"></span>
+                                <input type="email" name="email"
+                                    placeholder="Email Address" class="form-control" data-vv-id="4" aria-required="true"
+                                    aria-invalid="false">
+                            </div>
+                            <div class="col-lg-6 col-md-6 mb-3">
+                                <label>Photo<span class="text-danger">*</span></label>
+                                <span
+                                    class="text-danger" style="font-size: 12px;"></span>
+                                <input type="file" name="photo"
+                                    placeholder="Student Photo" class="form-control" data-vv-id="4" aria-required="true"
+                                    aria-invalid="false">
+                            </div>
+
+
+
 
                             <div class="row mb-3 mt-3">
                                 <div class="col-lg-12 col-md-12 mb-3">
