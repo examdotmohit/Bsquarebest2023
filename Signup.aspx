@@ -48,7 +48,7 @@
 
 
 
-            <section id="mainformpanel">
+            <section id="mainformpanel" style="display:none">
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -63,7 +63,7 @@
 
 
 
-                        <div class="formSection">
+                        <div class="formSection" >
                             <div class="form-input">
                                 <div class="row mb-3 mt-3" style="display: flex;">
                                     <div class="col-lg-12 col-md-12 mb-3">

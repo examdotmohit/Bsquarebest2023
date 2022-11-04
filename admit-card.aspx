@@ -12,9 +12,65 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <uc1:pageheader runat="server" ID="pageheader" />
      <h1 class="main-heading new-subHeading"><b>Admit Card</b></h1>
+
+
+    <section id="mobnopanel">
+                <div class="container-fluid">
+                    <div class="row Tellnet_heading mt-20">
+                        <div class="col-12">
+                            <h1 class="heading">Comming Soon
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </section>
+
+
+
+           <section id="tellnet" style="display:none">
+        <div class="container mt-5">
+            <div class="row tellnetMain-Row p-3">
+                <div class="clcClm card col-lg-6 offset-lg-3">
+                    <div class="login-form-box">
+                        <div id="loginForm" style="margin: 0px auto; max-width: 500px;">
+                            <form autocomplete="on" method="post" role="form" class="login-form">
+                                <div class="mb-3">
+                                    <div>
+                                        <label for="appNo" class="mandatory col-form-label font-weight-bolder">B-Square BEST 2023 Registered Mobile No.</label>
+                                        <div class="input">
+                                            <input autocomplete="on" autofocus="autofocus" id="appNo" name="Application Number" type="text" placeholder="Registered Mobile Number" class="form-control">
+                                            <span class="text-danger" style="font-size: 12px;"></span></div>
+                                    </div>
+                                    <div>
+                                        <label for="appNo" class="mandatory col-form-label font-weight-bolder">Your Roll No.</label>
+                                        <div class="input">
+                                            <input autocomplete="on" autofocus="autofocus" id="rollno" name="Roll Number" type="text" placeholder="Roll Number" class="form-control">
+                                            <span class="text-danger" style="font-size: 12px;"></span></div>
+                                    </div>
+                                    <div class="clearfix">
+                                        <div>
+                                            <!---->
+                                            <input type="submit" value="Submit" class="rn-btn edu-btn w-100 p mt--10"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </section>
+
+
+
+
             
            <section id="prize_money" class="container"><div class="prize-section"><h4 style="text-align: start;">
-                        Download from www.clctecno.com (5 days before the Exam Date)
+                       
                     </h4> <h2>
                         Mandatory at Exam Centre
                     </h2> <ul class="reward-ui"><li>

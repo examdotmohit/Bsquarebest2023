@@ -53,17 +53,20 @@
                             Download
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" target="_blank" href="/765clcdtse/websites/dtseskr/online-tutor-theme/assets/brochure-en.pdf">Booklet English</a></li>
-                            <li><a class="dropdown-item" target="_blank" href="/765clcdtse/websites/dtseskr/online-tutor-theme/assets/brochure-hi.pdf">Booklet Hindi</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="#">Booklet English</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="#">Booklet Hindi</a></li>
                             <!-- <li><hr class="dropdown-divider"></li> -->
                             <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Account
+                    <li class="nav-item">
+                        <a class="applyonline" href="/signup">Apply Online</a>
+                    </li>
+                    <%--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle photosubmit" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Apply Online
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" v-if="!loggedIn">
+                       <%-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown" v-if="!loggedIn">
 
                             <li><a class="dropdown-item" href="/login">Login</a></li>
                             <li><a class="dropdown-item" href="/signup">Signup</a></li>
@@ -76,7 +79,7 @@
                             <!-- <li><hr class="dropdown-divider"></li> -->
                             <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                         </ul>
-                    </li>
+                    </li>--%>
                     <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li> -->
