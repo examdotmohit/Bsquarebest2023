@@ -12,4 +12,16 @@ public partial class pageheader : System.Web.UI.UserControl
     {
 
     }
+
+    public string bgimagelink
+
+    {
+        get { return random().ToString(); }
+    }
+    public int random()
+    {
+        Random r = new Random();
+        int genRand = r.Next(1, 5);
+        return genRand;
+    }
 }

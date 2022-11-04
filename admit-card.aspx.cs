@@ -20,7 +20,7 @@ public partial class Default2 : System.Web.UI.Page
         con.Close();
         if (temp == 1)
         {
-            Response.Redirect("getadmitcard.aspx?mobno=" + mobno.Value + "&rollno=" + rollno.Value);
+            Response.Redirect("getadmitcard?mobno=" + mobno.Value + "&rollno=" + rollno.Value);
         }
         else
         {

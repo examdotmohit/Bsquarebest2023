@@ -5,7 +5,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <img class="heroImg" src="<%= maincontent.cdnurl %>/Web-Add-2022.jpg" alt=""
+                            <img class="heroImg" src="<%= maincontent.cdnurl %>/<%= bgimagelink %>.jpg" alt=""
                                 style="width: 100%; height: auto">
                         </div>
                     </div>
