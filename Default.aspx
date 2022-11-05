@@ -29,7 +29,7 @@
                                 <p><b><span style="color:red"> BEST</span> 2023, for Class V to XII </b><br>
                                     Get Rank, Recognition, Cash Prize, Scholarship & Much More.</p>
                                 <div class="buton">
-                                    <span class="Discover-Mre"><a href="/admit-card"
+                                    <span class="Discover-Mre"><a href="/login"
                                         style="color: red; text-decoration: none;">LOGIN</a></span>
                                     <span class="newbtn"><a href="/signup"
                                         style="color: white; text-decoration: none;"
@@ -89,7 +89,7 @@
                                         <div class="whyCard-img">
                                             <img class="img2" src="<%= maincontent.cdnurl %>/scholarship.png" alt="">
                                         </div>
-                                        <div class="newspace">
+                                        <div class="whyCard-Content">
                                             <p class="text text-center">Scholarship worth</p>
                                             
                                             <h1 class="text text-center"><span class="bolderr"><b>&#8377; 51 Lakh</b></span></h1>
@@ -104,7 +104,7 @@
                                         <div class="whyCard-img">
                                             <img class="img2" src="<%= maincontent.cdnurl %>/trophy.png" alt="">
                                         </div>
-                                        <div class="newspace">
+                                        <div class="whyCard-Content">
                                             <p class="text text-center">National Ranks & Total Prizes for Students</p>
                                             
                                             <h1 class="text text-center"><span class="bolderr"><b>1,000+</b></span></h1>
@@ -119,7 +119,7 @@
                                         <div class="whyCard-img">
                                             <img class="img2" src="<%= maincontent.cdnurl %>/award.png" alt="">
                                         </div>
-                                        <div class="newspace">
+                                        <div class="whyCard-Content">
                                             <p class="text text-center">Scholarship For BEST 2023 Course for 2023-24</p>
                                             
                                             <h1 class="text text-center"><span class="bolderr"><b> Up to 100%</b></span></h1>

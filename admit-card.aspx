@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.master" AutoEventWireup="true" CodeFile="admit-card.aspx.cs" Inherits="Default2" MaintainScrollPositionOnPostback="true" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.master" AutoEventWireup="true" CodeFile="admit-card.aspx.cs" Inherits="Default2" %>
 
 <%@ Register Src="pageheader.ascx" TagPrefix="uc1" TagName="pageheader" %>
 
@@ -14,7 +14,7 @@
      <h1 class="main-heading new-subHeading"><b>Admit Card</b></h1>
 
 
-    <%--<section id="mobnopanel">
+    <section id="mobnopanel">
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
@@ -26,41 +26,37 @@
 
                 
 
-            </section>--%>
+            </section>
 
 
 
-           <section id="tellnet">
+           <section id="tellnet" style="display:none">
         <div class="container mt-5">
             <div class="row tellnetMain-Row p-3">
                 <div class="clcClm card col-lg-6 offset-lg-3">
                     <div class="login-form-box">
                         <div id="loginForm" style="margin: 0px auto; max-width: 500px;">
-                            <div class="login-form">
+                            <form autocomplete="on" method="post" role="form" class="login-form">
                                 <div class="mb-3">
                                     <div>
                                         <label for="appNo" class="mandatory col-form-label font-weight-bolder">B-Square BEST 2023 Registered Mobile No.</label>
                                         <div class="input">
-                                            <input id="mobno" type="text" placeholder="Registered Mobile Number" class="form-control" runat="server">
-                                           </div>
+                                            <input autocomplete="on" autofocus="autofocus" id="appNo" name="Application Number" type="text" placeholder="Registered Mobile Number" class="form-control">
+                                            <span class="text-danger" style="font-size: 12px;"></span></div>
                                     </div>
                                     <div>
                                         <label for="appNo" class="mandatory col-form-label font-weight-bolder">Your Roll No.</label>
                                         <div class="input">
-                                            <input id="rollno" type="text" placeholder="Roll Number" class="form-control" runat="server">
-                                           </div>
+                                            <input autocomplete="on" autofocus="autofocus" id="rollno" name="Roll Number" type="text" placeholder="Roll Number" class="form-control">
+                                            <span class="text-danger" style="font-size: 12px;"></span></div>
                                     </div>
                                     <div class="clearfix">
                                         <div>
                                             <!---->
-                                            
-
-                                            <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" CssClass="rn-btn edu-btn w-100 p mt--10" />
-                                        </div>
-
+                                            <input type="submit" value="Submit" class="rn-btn edu-btn w-100 p mt--10"></div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>

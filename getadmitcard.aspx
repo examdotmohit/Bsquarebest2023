@@ -4,10 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<<<<<<< HEAD
      <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Download Admit Card </title>
    
+=======
+    <title>Download Admit Card
+    </title>
+>>>>>>> parent of 1847495 (changesz 04-11)
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
 
