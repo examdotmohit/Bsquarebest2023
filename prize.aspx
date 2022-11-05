@@ -95,7 +95,7 @@
                     <ul>
                         <li>
                             All the Above mentioned Cash Awards will be given only & only after Taking Admission before
-                            15 May 2023 in B-Square offline classroom Courses for Session 2023-24.
+                            15 June 2023 in B-Square offline classroom Courses for Session 2023-24.
                         </li>
                         <li>
                             Cash Award of more than Rs. 5000 will be given in four installments. (through Cheque only)

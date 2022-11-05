@@ -289,7 +289,7 @@
     }
 
     .navbar-brand {
-        position: absolute;
+        position: static;
         left: 0px;
         top: 15px;
     }
@@ -727,5 +727,8 @@
         text-decoration: none;
         margin-right: 0;
         margin-top: 17px;
+    }
+    #ClassPage{
+        background:#990913 !important;
     }
 </style>

@@ -23,10 +23,10 @@
                                 <div class="Education">
                                     <span>#तैयारी_जीत_की </span>
                                 </div>
-                                <h1 class="rt-title-heading animate__animated animate__pulse animate__infinite	infinite">BSQUARE ENTRANCE SCHOLARSHIP TEST 2023</h1>
+                                <h1 class="rt-title-heading animate__animated animate__pulse animate__infinite	infinite"><span style="color:red">B</span>SQUARE <span style="color:red">E</span>NTRANCE <span style="color:red">S</span>CHOLARSHIP <span style="color:red">T</span>EST 2023</h1>
                               
                            
-                                <p><b>BEST 2023, for Class V to XII </b><br>
+                                <p><b><span style="color:red"> BEST</span> 2023, for Class V to XII </b><br>
                                     Get Rank, Recognition, Cash Prize, Scholarship & Much More.</p>
                                 <div class="buton">
                                     <span class="Discover-Mre"><a href="/admit-card"
@@ -141,7 +141,7 @@
                             <h5 class="zone-color">Zone-I : 27 Nov. 2022</h5>
                             <h5 class="zone-color">Zone-II : 4 Dec. 2022</h5>                                        
 
-                            <h6>BEST 2023 helps students nurture their minds for higher targets of tomorrow and enables them to study at B-Square Institute for competitive test preparation by allowing high admission scholarship. BEST 2023 has helped almost a million students build a solid foundation and made them future ready.</h6>
+                            <h6>BEST 2023 helps students nurture their minds for higher targets of tomorrow and enables them to study at B-Square Institute for competitive test preparation by allowing high admission scholarship. BEST 2023 has helped almost a thousands students build a solid foundation and made them future ready.</h6>
                             
                             <h5 class="mt-5 zone-color">Exam Conduction Process</h5>
                             <p>BEST 2023 will be conducted in Offline mode only.</p>
@@ -500,11 +500,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="v_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class V</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="v_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -517,11 +517,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="vi_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class VI</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="vi_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -534,11 +534,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="vii_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class VII</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="vii_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -551,11 +551,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="viii_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class VIII</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="viii_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -568,11 +568,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="ix_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class IX</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="ix_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -591,11 +591,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="x_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class X</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="x_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -608,11 +608,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="xi_bio_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class XI (BIO)</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="xi_bio_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -625,11 +625,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="xi_math_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class XI (Math)</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="xi_math_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -642,11 +642,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="xii_bio_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class XII (BIO)</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="xii_bio_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>
@@ -659,11 +659,11 @@
                                         src="<%= maincontent.cdnurl %>/category-02.png"
                                         alt="BEST 2023"></a></div>
                             <div class="content">
-                                <h6 class="title"><a href="#" tabindex="-1"
+                                <h6 class="title"><a href="xii_math_syllabus.aspx" tabindex="-1"
                                         style="color: rgb(0, 0, 0); text-decoration: none;">Class XII (Math)</a></h6>
                                 <span>Syllabus &amp; Pattern</span>
                             </div>
-                            <div class="hover-action"><a href="#" tabindex="-1" class="read-more-btn"><i
+                            <div class="hover-action"><a href="xii_math_syllabus.aspx" tabindex="-1" class="read-more-btn"><i
                                         class="fa fa-arrow-right"></i></a></div>
                         </div>
                                 </center>

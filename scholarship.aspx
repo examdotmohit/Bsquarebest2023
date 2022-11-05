@@ -26,7 +26,7 @@
                         </li> <li>
                             Each Scholarship will be applicable only for session 2023-24
 
-                        </li> <li>Scholarship will be Applicable only for those students who complete the formalities of admission with deposition of first installment of Fee on or before 15 May 2023
+                        </li> <li>Scholarship will be Applicable only for those students who complete the formalities of admission with deposition of first installment of Fee on or before 15 June 2023
                         </li> <li>There is No Scholarship on the basis of the BEST 2023 in DLP &amp; Digital Division.
                         </li> <li>If a Student misbehaves, Using Unfair means in Classroom, indisciplined or use of abusive Language then all Scholarships of the student should be revoked immediately. 
                         </li> <li>
