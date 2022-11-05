@@ -384,42 +384,40 @@
                                 <div class="col-mg-6 col-lg-6 leftSection">
                                     <ul>
                                         <li class="heading">
-                                            ZONE : I (RAJASTHAN)
+                                            SLOT : I
                                         </li>
                                         <li class="normal">
                                             Exam Date : 27 Nov. 2022
                                         </li>
                                         <li class="normal">
-                                            Exam Time : 11:00 AM to 1:00 PM
+                                            Exam Time : 11:00 AM TO 1:00 PM
                                         </li>
                                         
                                     </ul>
                                 </div>
                                 <div class="col-mg-6 col-lg-6 rightSection">
                                     <ul :class="{ collapse : !collapseCenters }">
-
-                                        <li> <a style="color: black; text-decoration: none;"
-                                                href="/exam-center">Merta City</a></li>
                                         <li><a style="color: black; text-decoration: none;"
                                                 href="/exam-center">Kuchera</a>
                                             
                                         </li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Mundwa</a>
+                                                href="/exam-center">Jayal</a>
                                             
                                         </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Ren</a>
-                                            
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
+                                          <li><a style="color: black; text-decoration: none;"
                                             href="/exam-center">Degana</a>
                                             
                                         </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Padu Kalan</a>
-                                            
-                                        </li>
+                                          <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Gotan</a></li>
+                                          <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Thanwla</a></li>
+
+                                      <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Riyan Badi</a></li>
+                                        
+                                       
                                        
                                     </ul>
                                 </div>
@@ -428,31 +426,39 @@
                                 <div class="col-mg-6 col-lg-6 leftSection">
                                     <ul>
                                         <li class="heading">
-                                            ZONE : II (RAJASTHAN)
+                                            SLOT : II
                                         </li>
                                         <li class="normal">
                                             Exam Date : 04 Dec. 2022
                                         </li>
                                         <li class="normal">
-                                            Exam Time : 11:00 AM to 1:00 PM
+                                            Exam Time : 11:00 AM TO 1:00 PM
                                         </li>
                                        
                                     </ul>
                                 </div>
                                 <div class="col-mg-6 col-lg-6 rightSection">
                                     <ul :class="{ collapse : !collapseCenters1 }">
+                                          <li> <a style="color: black; text-decoration: none;"
+                                                href="/exam-center">Merta City</a></li>
+                                          <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Merta Road</a></li>
+                                       
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Riyan Badi</a></li>
+                                            href="/exam-center">Ren</a>
+                                            
+                                        </li>
+                                      
+                                        <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Padu Kalan</a>
+                                            
+                                        </li>
                                         <li><a style="color: black; text-decoration: none;"
                                             href="/exam-center">Jasnagar</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Gotan</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Merta Road</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Bherunda</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Bhopal Garh</a></li>
+                                      
+                                      
+                                       
+                                        
                                         
                                     </ul>
                                 </div>
