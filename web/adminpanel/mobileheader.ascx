@@ -24,7 +24,7 @@
 							<!--begin::Mobile logo-->
 							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
 								<a href="Default.aspx" class="d-lg-none">
-									<img alt="Logo" src="../assets/mainlogo.png" class="h-30px" />
+									<img alt="Logo" src="https://bsquareparivar.in/wp-content/uploads/2020/07/bsquarelogo.png" class="h-30px" />
 								</a>
 							</div>
 							<!--end::Mobile logo-->

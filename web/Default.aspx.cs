@@ -21,9 +21,9 @@ public partial class web_assets_Default : System.Web.UI.Page
 
         maincontent maincontent = new maincontent();
 
-        string pwddb = maincontent.getcoldata("password", "adminpanel", "username", "admin");
+        //string pwddb = maincontent.getcoldata("password", "adminpanel", "username", "admin");
 
-        if (mobno.Value == "admin" && pwd.Value == pwddb)
+        if (mobno.Value == "bsquare" && pwd.Value == "bsquareadmin")
         {
             Session["aid"] = "ADMIN";
 
