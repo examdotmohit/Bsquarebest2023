@@ -54,7 +54,7 @@ public partial class getadmitcard : System.Web.UI.Page
             else
             {
             }
-            Image1.ImageUrl = "/uploads/" + photo;
+            Image1.ImageUrl = "/images/" + photo;
             //exam date and time
 
             examcenter.Text = maincontent.getcoldata("centername", "centers", "centercode", centercodes).ToString();
@@ -64,7 +64,7 @@ public partial class getadmitcard : System.Web.UI.Page
         else
         {
             ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('No Record Found!!')", true);
-            Response.Redirect("admitcard.aspx");
+            Response.Redirect("admit-card");
         }
     }
 }

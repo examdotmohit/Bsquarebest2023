@@ -21,7 +21,7 @@
                                 <p><b>BEST 2023, for Class V to XII </b><br>
                                     Get Rank, Recognition, Cash Prize, Scholarship & Much More.</p>
                                 <div class="buton">
-                                    <span class="Discover-Mre"><a href="/login"
+                                    <span class="Discover-Mre"><a href="/admit-card"
                                         style="color: red; text-decoration: none;">LOGIN</a></span>
                                     <span class="newbtn"><a href="/signup"
                                         style="color: white; text-decoration: none;"
@@ -133,7 +133,7 @@
                             <h5 class="mt-5 zone-color">Exam Conduction Process</h5>
                             <p>BEST 2023 will be conducted in Offline mode only.</p>
                             <h5 class="mt-5 zone-color">Exam Result</h5>
-                            <p>Result will be declared in last week of November 2022 (It will be declared on www.bsquarebest.in and will also be shared by SMS at applicant's registered Mobile No.).</p>
+                            <p>Result will be declared in last week of DEC 2022 (It will be declared on www.bsquarebest.in and will also be shared by SMS at applicant's registered Mobile No.).</p>
                             <!-- <p class="text">Exploring young igniting minds...</p> -->
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                         <div class="col-lg-6 col-sm-12">
                             <div class="purple_bg">
                                 <img class="img2 about-image"
-                                    src="<%= maincontent.cdnurl %>/3.jpg" alt="">
+                                    src="<%= maincontent.cdnurl %>/35.jpg" alt="">
                                 <!-- <img class="img-2" src="/765clcdtse/websites/dtseskr/online-tutor-theme/assets/img/education-image06-2.webp" alt=""> -->
                                 <!-- <img class="img-3" src="/765clcdtse/websites/dtseskr/online-tutor-theme/assets/img/education-image05.webp" alt=""> -->
                             </div>
