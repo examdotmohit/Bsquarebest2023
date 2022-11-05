@@ -60,7 +60,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="applyonline" href="/signup">Apply Online</a>
+                        <a class="applyonline animate__animated animate__pulse animate__infinite	infinite" href="/signup">Apply Online</a>
                     </li>
                     <%--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle photosubmit" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

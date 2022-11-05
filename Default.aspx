@@ -4,6 +4,14 @@
      <title>
     HOME | <%= maincontent.websitename %>
     </title>
+    <style>
+        .newspace{
+            margin-bottom:100px !important;
+        }
+        .newspace2{
+            margin-top:50px !important;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
@@ -51,19 +59,22 @@
 
 
 
+
+
       <section id="WHY_US">
                 <div class="container">
                     <div class="row">
                         
-                        <div class="col-xl-6 col-lg-6 why_card-container">
-                            <div class="why_three_cards">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
 
-                                <div class="col-lg-6">
+                            <div class="row mt-5">
+
+                                <div class="col-md-6">
                                     <div>
                                         <div class="whyCard-img">
                                             <img class="img2" src="<%= maincontent.cdnurl %>/cash-prize.png"  alt="">
                                         </div>
-                                        <div class="whyCard-Content">
+                                        <div class="newspace">
                                             <p class="text text-center">Cash Prizes</p>
                                             
                                             <h1 class="text text-center"><span class="bolderr"><b>&#8377; 51 Lakh</b></span></h1>
@@ -73,12 +84,12 @@
                                 </div>
 
 
-                                <div class="col-lg-6">
+                                <div class="col-md-6">
                                     <div>
                                         <div class="whyCard-img">
                                             <img class="img2" src="<%= maincontent.cdnurl %>/scholarship.png" alt="">
                                         </div>
-                                        <div class="whyCard-Content">
+                                        <div class="newspace">
                                             <p class="text text-center">Scholarship worth</p>
                                             
                                             <h1 class="text text-center"><span class="bolderr"><b>&#8377; 51 Lakh</b></span></h1>
@@ -88,12 +99,12 @@
                                 </div>
 
 
-                                <div class="col-lg-6">
+                               <div class="col-md-6">
                                     <div class=" ">
                                         <div class="whyCard-img">
                                             <img class="img2" src="<%= maincontent.cdnurl %>/trophy.png" alt="">
                                         </div>
-                                        <div class="whyCard-Content">
+                                        <div class="newspace">
                                             <p class="text text-center">National Ranks & Total Prizes for Students</p>
                                             
                                             <h1 class="text text-center"><span class="bolderr"><b>1,000+</b></span></h1>
@@ -103,12 +114,12 @@
                                 </div>
 
 
-                                <div class="col-lg-6">
+                                <div class="col-md-6">
                                     <div class=" ">
                                         <div class="whyCard-img">
                                             <img class="img2" src="<%= maincontent.cdnurl %>/award.png" alt="">
                                         </div>
-                                        <div class="whyCard-Content">
+                                        <div class="newspace">
                                             <p class="text text-center">Scholarship For BEST 2023 Course for 2023-24</p>
                                             
                                             <h1 class="text text-center"><span class="bolderr"><b> Up to 100%</b></span></h1>
@@ -120,8 +131,10 @@
 
 
                             </div>
+                            
+
                         </div>
-                        <div class="col-6 text-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12 text-center">
                             <h6 class="section-headlabel mx-auto">About Best</h6>
                             <h1 class="main-heading mx-auto"><b>About BEST 2023</b></h1>
                             <h3 class="zone-color">Exam Date :</h3>
@@ -201,7 +214,7 @@
 
 
       <section id="ABOUT_COURSES">
-                <div class="container mt-30">
+                <div class="container mt-10">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12 text-area">
                             <h6 class="benefits new-heading">ABOUT EXAM</h6>
@@ -371,42 +384,40 @@
                                 <div class="col-mg-6 col-lg-6 leftSection">
                                     <ul>
                                         <li class="heading">
-                                            ZONE : I (RAJASTHAN)
+                                            SLOT : I
                                         </li>
                                         <li class="normal">
                                             Exam Date : 27 Nov. 2022
                                         </li>
                                         <li class="normal">
-                                            Exam Time : 11:00 AM to 1:00 PM
+                                            Exam Time : 11:00 AM TO 1:00 PM
                                         </li>
                                         
                                     </ul>
                                 </div>
                                 <div class="col-mg-6 col-lg-6 rightSection">
                                     <ul :class="{ collapse : !collapseCenters }">
-
-                                        <li> <a style="color: black; text-decoration: none;"
-                                                href="/exam-center">Merta City</a></li>
                                         <li><a style="color: black; text-decoration: none;"
                                                 href="/exam-center">Kuchera</a>
                                             
                                         </li>
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Mundwa</a>
+                                                href="/exam-center">Jayal</a>
                                             
                                         </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Ren</a>
-                                            
-                                        </li>
-                                        <li><a style="color: black; text-decoration: none;"
+                                          <li><a style="color: black; text-decoration: none;"
                                             href="/exam-center">Degana</a>
                                             
                                         </li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Padu Kalan</a>
-                                            
-                                        </li>
+                                          <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Gotan</a></li>
+                                          <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Thanwla</a></li>
+
+                                      <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Riyan Badi</a></li>
+                                        
+                                       
                                        
                                     </ul>
                                 </div>
@@ -415,31 +426,39 @@
                                 <div class="col-mg-6 col-lg-6 leftSection">
                                     <ul>
                                         <li class="heading">
-                                            ZONE : II (RAJASTHAN)
+                                            SLOT : II
                                         </li>
                                         <li class="normal">
                                             Exam Date : 04 Dec. 2022
                                         </li>
                                         <li class="normal">
-                                            Exam Time : 11:00 AM to 1:00 PM
+                                            Exam Time : 11:00 AM TO 1:00 PM
                                         </li>
                                        
                                     </ul>
                                 </div>
                                 <div class="col-mg-6 col-lg-6 rightSection">
                                     <ul :class="{ collapse : !collapseCenters1 }">
+                                          <li> <a style="color: black; text-decoration: none;"
+                                                href="/exam-center">Merta City</a></li>
+                                          <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Merta Road</a></li>
+                                       
                                         <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Riyan Badi</a></li>
+                                            href="/exam-center">Ren</a>
+                                            
+                                        </li>
+                                      
+                                        <li><a style="color: black; text-decoration: none;"
+                                            href="/exam-center">Padu Kalan</a>
+                                            
+                                        </li>
                                         <li><a style="color: black; text-decoration: none;"
                                             href="/exam-center">Jasnagar</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Gotan</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Merta Road</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Bherunda</a></li>
-                                        <li><a style="color: black; text-decoration: none;"
-                                            href="/exam-center">Bhopal Garh</a></li>
+                                      
+                                      
+                                       
+                                        
                                         
                                     </ul>
                                 </div>
@@ -460,7 +479,7 @@
                 <div class="container">
                     <div class="row">
                         <center>
-                            <div class="col-12" style="margin-bottom:10px">
+                            <div class="col-md-12" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <h1 class="main-heading new-heading">Syllabus & Pattern</h1>
@@ -472,8 +491,8 @@
                             </div>
                         </center>
                         <div class="row">
-                                <div class="col-1"></div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-md-1"></div>
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -490,7 +509,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -507,7 +526,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -524,7 +543,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -541,7 +560,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -558,12 +577,13 @@
                         </div>
                                 </center>
                                                             </div>
+                             <div class="col-md-1"></div>
                         </div>
 
 
                         <div class="row">
-                                <div class="col-1"></div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                 <div class="col-md-1"></div>
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -580,7 +600,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -597,7 +617,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -614,7 +634,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -631,7 +651,7 @@
                         </div>
                                 </center>
                                                             </div>
-                                <div class="col-2" style="margin-bottom:10px">
+                                <div class="col-lg-2 col-md-4 col-sm-6" style="margin-bottom:10px">
                                 <!-- <h6 class="section-headlabel">FEATURED SERVICES</h6> -->
                                 <center>
                                     <div class="inner">
@@ -648,6 +668,7 @@
                         </div>
                                 </center>
                                                             </div>
+                             <div class="col-md-1"></div>
                         </div>
                         
                         

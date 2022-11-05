@@ -58,7 +58,7 @@ public partial class getadmitcard : System.Web.UI.Page
             //exam date and time
 
             examcenter.Text = maincontent.getcoldata("centername", "centers", "centercode", centercodes).ToString();
-            centeraddresslbl.Text = maincontent.getcoldata("place", "centers", "centercode", centercodes).ToString();
+            //centeraddresslbl.Text = maincontent.getcoldata("place", "centers", "centercode", centercodes).ToString();
             examtime.Text = maincontent.getcoldata("examdate", "centers", "centercode", centercodes).ToString();
         }
         else

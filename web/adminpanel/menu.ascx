@@ -6,7 +6,7 @@
     <div class="aside-logo flex-column-auto" id="kt_aside_logo">
         <!--begin::Logo-->
         <a href="Default.aspx">
-            <img alt="Logo" src="../assets/mainlogo.png" class="logo" width="100px" />
+            <img alt="Logo" src="https://bsquareparivar.in/wp-content/uploads/2020/07/bsquarelogo.png" class="logo" width="100px" />
         </a>
         <!--end::Logo-->
         <!--begin::Aside toggler-->
@@ -40,52 +40,90 @@
 
                     <div class="menu-item">
                         <div class="menu-content pt-8 pb-2">
-                            <span class="menu-section text-muted text-uppercase fs-8 ls-1">Leads</span>
+                            <span class="menu-section text-muted text-uppercase fs-8 ls-1">Student</span>
                         </div>
                     </div>
-
                     <div class="menu-item">
-                        <a class="menu-link" href="postjob.aspx">
+                        <a class="menu-link" href="student.aspx">
                             <span class="menu-icon">
                                 <img src="../assets/media/icons/kyc.png" width="20px" />
                             </span>
-                            <span class="menu-title">Post New Job</span>
+                            <span class="menu-title">All Students</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=5th">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">5TH</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=6th">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">6TH</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=7th">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">7TH</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=8th">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">8TH</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=9th">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">9TH</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=10th">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">10TH</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=11thmath">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">11TH Math</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=11thbio">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">11TH BIO</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=12thmath">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">12TH Math</span>
+                        </a>
+                    </div><div class="menu-item">
+                        <a class="menu-link" href="student.aspx?class=12thbio">
+                            <span class="menu-icon">
+                                <img src="../assets/media/icons/kyc.png" width="20px" />
+                            </span>
+                            <span class="menu-title">12TH Bio</span>
                         </a>
                     </div>
 
-                    <div class="menu-item">
-                        <a class="menu-link" href="vieweditjobs.aspx">
-                            <span class="menu-icon">
-                                <img src="../assets/media/icons/kyc.png" width="20px" />
-                            </span>
-                            <span class="menu-title">View & Edit Job</span>
-                        </a>
-                    </div>
-
-                    <div class="menu-item">
-                        <a class="menu-link" href="jobapplied.aspx">
-                            <span class="menu-icon">
-                                <img src="../assets/media/icons/kyc.png" width="20px" />
-                            </span>
-                            <span class="menu-title">Job Applied Entries</span>
-                        </a>
-                    </div> 
-                    <div class="menu-item">
-                        <a class="menu-link" href="completevieweditjobs.aspx">
-                            <span class="menu-icon">
-                                <img src="../assets/media/icons/kyc.png" width="20px" />
-                            </span>
-                            <span class="menu-title">Completed Jobs</span>
-                        </a>
-                    </div>
-                     <div class="menu-item">
-                        <a class="menu-link" href="contact.aspx">
-                            <span class="menu-icon">
-                                <img src="../assets/media/icons/kyc.png" width="20px" />
-                            </span>
-                            <span class="menu-title">Contact Form Entries</span>
-                        </a>
-                    </div>
+                    
                 </div>
 
              

@@ -41,7 +41,7 @@
 							<div class="text-center mb-10">
 								<!--begin::Title-->
 								<a href="Default.aspx" class="mb-12">
-						<img alt="Logo" src="assets/mainlogo.png" width="200" />
+						<img alt="Logo" src="https://bsquareparivar.in/wp-content/uploads/2020/07/bsquarelogo.png" width="200" />
 					</a>
 								<h1 class="text-dark mb-3">LOGIN</h1>
 								<!--end::Title-->

@@ -134,11 +134,11 @@
                     <td colspan="2"><b>
                         <asp:Label ID="examcenter" runat="server" Text="Label"></asp:Label></b></td>
                 </tr>
-                <tr>
+              <%--  <tr>
                     <td><b>Centre Address</b></td>
                     <td colspan="2"><b>
                         <asp:Label ID="centeraddresslbl" runat="server" Text="Label"></asp:Label></b></td>
-                </tr>
+                </tr>--%>
                 <tr></tr>
                  <tr></tr>
                 <tr></tr>

@@ -723,7 +723,7 @@
         font-weight: 700;
         text-decoration: none;
         text-transform: capitalize;
-        color: #fff;
+        color: #fff !important;
         text-decoration: none;
         margin-right: 0;
         margin-top: 17px;

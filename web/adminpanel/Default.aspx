@@ -16,17 +16,39 @@
             <div class="row">
                 <div class="col-12">
                     <div class="gutter-b">
-                      
+
                         <div class="row">
+                             <div class="col-xl-3 col-md-6">
+                                <div class="card card-stats">
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">ToTal</h5>
+                                                <span class="h2 font-weight-bold mb-0">
+                                                    <asp:Label ID="total" runat="server" Text="Label"></asp:Label></span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+                                                    <i class="ni ni-money-coins"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="row mt-5">
                             <div class="col-xl-3 col-md-6">
                                 <div class="card card-stats">
                                     <!-- Card body -->
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col">
-                                                <h5 class="card-title text-uppercase text-muted mb-0">Total Jobs</h5>
+                                                <h5 class="card-title text-uppercase text-muted mb-0">5TH</h5>
                                                 <span class="h2 font-weight-bold mb-0">
-                                                    <asp:Label ID="totalstu" runat="server" Text="Label"></asp:Label></span>
+                                                    <asp:Label ID="five" runat="server" Text="Label"></asp:Label></span>
                                                
                                             </div>
                                             <div class="col-auto">
@@ -44,9 +66,9 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col">
-                                                <h5 class="card-title text-uppercase text-muted mb-0">Live Jobs</h5>
+                                                <h5 class="card-title text-uppercase text-muted mb-0">6TH</h5>
                                                 <span class="h2 font-weight-bold mb-0">
-                                                    <asp:Label ID="freestu" runat="server" Text="Label"></asp:Label></span>
+                                                    <asp:Label ID="six" runat="server" Text="Label"></asp:Label></span>
                                             </div>
                                             <div class="col-auto">
                                                 <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
@@ -64,9 +86,9 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col">
-                                                <h5 class="card-title text-uppercase text-muted mb-0">Job Applied</h5>
+                                                <h5 class="card-title text-uppercase text-muted mb-0">7th</h5>
                                                 <span class="h2 font-weight-bold mb-0">
-                                                    <asp:Label ID="prestu" runat="server" Text="Label"></asp:Label></span>
+                                                    <asp:Label ID="seven" runat="server" Text="Label"></asp:Label></span>
                                                
                                             </div>
                                             <div class="col-auto">
@@ -85,9 +107,9 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col">
-                                                <h5 class="card-title text-uppercase text-muted mb-0">Contact Form</h5>
+                                                <h5 class="card-title text-uppercase text-muted mb-0">8th</h5>
                                                 <span class="h2 font-weight-bold mb-0">
-                                                    <asp:Label ID="totfac" runat="server" Text="Label"></asp:Label></span>
+                                                    <asp:Label ID="eight" runat="server" Text="Label"></asp:Label></span>
                                             </div>
                                             <div class="col-auto">
                                                 <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
@@ -99,6 +121,135 @@
                                 </div>
                             </div>
                         </div>
+
+                                                <div class="row mt-5">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card card-stats">
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">9TH</h5>
+                                                <span class="h2 font-weight-bold mb-0">
+                                                    <asp:Label ID="nine" runat="server" Text="Label"></asp:Label></span>
+                                               
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+                                                    <i class="ni ni-active-40"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card card-stats">
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">10TH</h5>
+                                                <span class="h2 font-weight-bold mb-0">
+                                                    <asp:Label ID="ten" runat="server" Text="Label"></asp:Label></span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
+                                                    <i class="ni ni-chart-pie-35"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card card-stats">
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">11thBIo</h5>
+                                                <span class="h2 font-weight-bold mb-0">
+                                                    <asp:Label ID="oneonebio" runat="server" Text="Label"></asp:Label></span>
+                                               
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                                                    <i class="ni ni-chart-bar-32"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card card-stats">
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">12th BIO</h5>
+                                                <span class="h2 font-weight-bold mb-0">
+                                                    <asp:Label ID="onetwobio" runat="server" Text="Label"></asp:Label></span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+                                                    <i class="ni ni-money-coins"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                          
+
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card card-stats">
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">11th Math</h5>
+                                                <span class="h2 font-weight-bold mb-0">
+                                                    <asp:Label ID="oneonemath" runat="server" Text="Label"></asp:Label></span>
+                                               
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                                                    <i class="ni ni-chart-bar-32"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card card-stats">
+                                    <!-- Card body -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">12th Math</h5>
+                                                <span class="h2 font-weight-bold mb-0">
+                                                    <asp:Label ID="onetwomath" runat="server" Text="Label"></asp:Label></span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+                                                    <i class="ni ni-money-coins"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
 
                         <div class="row mt-5 mb-5">
                             <div class="col-md-12">

@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="header.ascx.cs" Inherits="web_header" %>
 
-<title>Hr Radha Krishna Services Portal</title>
+<title>Bsquare</title>
 <meta name="description" content="Hr Radha Krishna Services Portal" />
 		
 	
