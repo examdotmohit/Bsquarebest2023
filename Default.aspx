@@ -40,8 +40,8 @@
                                 <div class="header_dateBox">
                                     <h3>Exam Date : </h3>
                                     <div class="examdate">
-                                        <span>SLOT-I : 27 Nov. 2022</span>
-                                        <span> SLOT-II : 4 Dec. 2022</span>
+                                        <span>Zone-I : 27 Nov. 2022</span>
+                                        <span> Zone-II : 4 Dec. 2022</span>
                                         
                                     </div>
                                 </div>
