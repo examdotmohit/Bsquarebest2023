@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Bin.zip
+/demo.aspx
+/demo.aspx.cs
