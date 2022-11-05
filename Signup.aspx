@@ -64,10 +64,7 @@
 
 
 
-            <section id="mainformpanel" style="display:none">
-=======
-            <section id="mainformpanel"  runat="server" visible="false">
->>>>>>> 480fd39398cd7dbbefa30dd600973b9e900d9d6c
+            <section id="mainformpanel" >
                 <div class="container-fluid">
                     <div class="row Tellnet_heading mt-20">
                         <div class="col-12">
