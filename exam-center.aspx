@@ -96,7 +96,7 @@
                     ],
 
                     bFilter: true,
-                    bSort: false,
+                    bSort: true,
                     bPaginate: true
                 });
         });
