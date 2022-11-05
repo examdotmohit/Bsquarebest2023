@@ -85,6 +85,8 @@
                     bLengthChange: true,
                     //dom: 'Bfrtip',
                     "dom": '<<"pull-left"f><"pull-right"lB><t> ip>',
+
+                    iDisplayLength: 100,
                     lengthMenu: [[10, 50, 100, -1], [10,50, 100, "All"]],
                     buttons: [
                         'copyHtml5',
